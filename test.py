@@ -25,7 +25,8 @@ def get_dataset(cfg, trained_dict_path):
 def get_model(widx2vec, model_path, dvc, idx2dur, arg):
     model_dir, model_filename = os.path.split(model_path)
     checkpoint = torch.load(model_path,
-                            map_location=None if 'cuda' == dvc.type else 'cpu')
+                            map_location=None if 'cuda' == dvc.type else 'cpu',
+                            weights_only=False)
     ckpt_config = checkpoint['config']
     ckpt_dict = vars(ckpt_config)
     ckpt_dict['yes_cuda'] = arg.yes_cuda  # overriding
@@ -48,7 +49,7 @@ def measure_performance(test_set, model, conf, dvc, batch_size=1, write_log=Fals
     performance_dict['recall5'] = 0.
     performance_dict['mrr'] = 0.
     performance_dict['ieuc'] = 0.
-    
+
     # debugging
     sample_idx = -1
     log_f = None

@@ -130,9 +130,9 @@ class NETSDataset(object):
             if key not in self.dur2idx:
                 self.dur2idx[key] = len(self.dur2idx)
                 self.idx2dur[len(self.idx2dur)] = key
-    
+
     def map_dictionary(self, key_list, dictionary, reverse=False):
-        # mapping list of keys into dictionary 
+        # mapping list of keys into dictionary
         #   reverse=False : word2idx, char2idx
         #   reverse=True : idx2word, idx2char
         output = list()
@@ -149,7 +149,7 @@ class NETSDataset(object):
                 else:
                     output.append(dictionary[self.word2idx[self.UNK]])
         return output
-    
+
     def build_word_dict(self, path, update=True):
         print('### build word dict %s' % path)
 
@@ -176,7 +176,7 @@ class NETSDataset(object):
             prev_what_list = list()
             prev_week_key = ''
             for k, features in enumerate(calendar_data):
-                assert len(features) == self.feature_len 
+                assert len(features) == self.feature_len
                 what = features[1]
                 user_id = features[0]
                 st_year = features[5]
@@ -213,7 +213,7 @@ class NETSDataset(object):
                     assert prev_week_key == week_key
                     if prev_week_key in self.invalid_weeks:
                         continue
-                    
+
                     # event title should be printable
                     if check_printable(what, prev_week_key) \
                             and check_maxlen(what, prev_week_key):
@@ -333,7 +333,7 @@ class NETSDataset(object):
                     self.config.max_wordlen = max_wordlen
                 if max_sentlen > self.config.max_sentlen:
                     self.config.max_sentlen = max_sentlen
-                
+
                 sentchar = list()
                 for word in what_split:
                     sentchar.append([self.char2idx[self.BOW]] +
@@ -366,7 +366,7 @@ class NETSDataset(object):
                 assert st_slot < self.slot_size
                 input_slot = st_slot // self.class_div
                 target_slot = st_slot // self.class_div
-                
+
                 # process context
                 if reg_seq == 0:  # start of a new week
                     assert curr_user != prev_user or curr_st_yw != prev_st_yw
@@ -629,7 +629,7 @@ class SortedBatchSampler(Sampler):
     def __iter__(self):
         lengths = np.array(
             [(l[0], l[1], np.random.random()) for l in self.lengths],
-            dtype=[('l1', np.int_), ('l2', np.int_), ('rand', np.float_)]
+            dtype=[('l1', np.int_), ('l2', np.int_), ('rand', np.float64)]
         )
         indices = np.argsort(lengths, order=('l2', 'l1', 'rand'))
         batches = [indices[i:i + self.batch_size]
@@ -681,7 +681,7 @@ if __name__ == '__main__':
     else:
         print('## load preprocess %s' % config.preprocess_load_path)
         dataset = pickle.load(open(config.preprocess_load_path, 'rb'))
-   
+
     # dataset config must be valid
     pprint.PrettyPrinter().pprint(
         ([(k, v) for k, v in vars(dataset.config).items() if '__' not in k]))

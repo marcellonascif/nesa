@@ -786,7 +786,8 @@ class NESA(nn.Module):
         print('\t-> load checkpoint %s' % filename)
         checkpoint = torch.load(filename,
                                 map_location=None if 'cuda' == self.device.type
-                                else 'cpu')
+                                else 'cpu',
+                                weights_only=False)
         self.load_state_dict(checkpoint['state_dict'])
         self.optimizer.load_state_dict(checkpoint['optimizer'])
 
