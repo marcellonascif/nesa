@@ -1,0 +1,143 @@
+sample@email.com,Attend the school graduation,480,2017-11-27 06:58:00,2017-12-14 23:00:00,2017,50,0,2,17,False,190
+sample@email.com,Go to Baile da Gaiola,480,2018-08-07 11:25:00,2018-08-10 22:00:00,2018,32,10,0,3,False,236
+sample@email.com,Study calculus and problem set 2,300,2020-09-18 00:58:00,2020-09-18 08:00:00,2020,38,0,0,0,False,208
+sample@email.com,Go to psychiatrist appointment,90,2021-05-18 21:23:00,2021-05-19 19:00:00,2021,20,0,0,1,False,134
+sample@email.com,Facetime with Alessandra,90,2021-05-21 02:39:00,2021-05-21 15:30:00,2021,20,1,0,0,False,223
+sample@email.com,Take exam 3,120,2021-07-07 23:53:00,2021-07-08 11:00:00,2021,27,0,0,1,False,166
+sample@email.com,Go to psychologist appointment,60,2021-09-01 15:56:00,2021-09-03 16:00:00,2021,35,0,0,2,False,224
+sample@email.com,Consult with Dr. Bruno,60,2021-10-25 11:01:00,2021-11-01 19:30:00,2021,44,0,1,7,False,39
+sample@email.com,Go to the gym,60,2022-01-17 13:36:00,2022-01-17 17:55:00,2022,3,0,0,0,False,35
+sample@email.com,Have chiropractic,120,2022-01-20 06:38:00,2022-01-20 10:45:00,2022,3,1,0,0,False,165
+sample@email.com,Study,165,2022-01-20 07:29:00,2022-01-20 07:30:00,2022,3,2,0,0,False,159
+sample@email.com,Have an imaging exam,55,2022-01-20 09:06:00,2022-01-25 08:10:00,2022,4,0,1,5,False,64
+sample@email.com,Participate in the course registration adjustment,120,2022-01-20 20:27:00,2022-01-24 08:00:00,2022,4,1,1,4,False,16
+sample@email.com,Participate in the second registration adjustment,60,2022-01-20 20:27:00,2022-01-24 17:00:00,2022,4,2,1,4,False,34
+sample@email.com,Study,75,2022-01-24 08:55:00,2022-01-24 09:15:00,2022,4,3,0,0,False,18
+sample@email.com,Tidy up,30,2022-01-24 22:32:00,2022-01-25 07:25:00,2022,4,6,0,1,False,62
+sample@email.com,Go to Barra Shopping,135,2022-01-27 10:59:00,2022-01-27 18:00:00,2022,4,7,0,0,False,180
+sample@email.com,Go to psychologist appointment,49,2022-02-01 13:59:00,2022-02-02 18:00:00,2022,5,0,0,1,False,132
+sample@email.com,Celebrate Gabi's birthday,240,2022-02-01 16:47:00,2022-02-04 20:00:00,2022,5,1,0,3,False,232
+sample@email.com,Celebrate Sofia K's birthday,240,2022-02-04 22:59:00,2022-02-05 20:00:00,2022,5,2,0,1,False,280
+sample@email.com,Go to psychologist appointment,49,2022-02-06 19:36:00,2022-02-07 13:10:00,2022,6,1,1,1,False,26
+sample@email.com,Consult the surgeon,120,2022-02-07 20:27:00,2022-02-09 15:00:00,2022,6,2,0,2,False,126
+sample@email.com,See the orthopedist,60,2022-02-19 23:24:00,2022-02-22 16:30:00,2022,8,0,1,3,False,81
+sample@email.com,Celebrate Giovanna Lopes' birthday,120,2022-03-05 18:33:00,2022-03-05 20:30:00,2022,9,1,0,0,False,281
+sample@email.com,Go to barbecue,480,2022-03-06 02:36:00,2022-03-06 13:00:00,2022,9,2,0,0,False,314
+sample@email.com,Take Algebra test 1,480,2022-03-17 11:21:00,2022-03-25 00:00:00,2022,12,5,1,8,False,192
+sample@email.com,Animate ideas with Keynote,60,2022-03-21 23:56:00,2022-03-22 19:00:00,2022,12,6,0,1,False,86
+sample@email.com,Have lunch with grandma,165,2022-03-26 00:27:00,2022-03-26 14:00:00,2022,12,7,0,0,False,268
+sample@email.com,Have an imaging exam,60,2022-03-26 10:06:00,2022-04-09 15:00:00,2022,14,8,2,14,False,270
+sample@email.com,Consult the dermatologist,40,2022-04-14 10:16:00,2022-04-14 11:20:00,2022,15,8,0,0,False,166
+sample@email.com,Have an imaging exam,55,2022-04-09 18:52:00,2022-04-21 09:00:00,2022,16,7,2,12,False,162
+sample@email.com,Take the driving test,60,2022-04-23 15:36:00,2022-04-25 11:00:00,2022,17,0,1,2,False,22
+sample@email.com,Take INF1018 exam 1,105,2022-04-26 09:54:00,2022-05-05 09:00:00,2022,18,1,1,9,False,162
+sample@email.com,Take Algebra test 3,480,2022-05-16 10:39:00,2022-05-20 00:00:00,2022,20,3,0,4,False,192
+sample@email.com,Study,210,2022-05-16 10:30:00,2022-05-23 09:00:00,2022,21,1,1,7,False,18
+sample@email.com,Study,150,2022-05-16 10:30:00,2022-05-25 09:30:00,2022,21,3,1,9,False,115
+sample@email.com,Take inf1018 exam 2,105,2022-06-18 20:41:00,2022-06-21 09:00:00,2022,25,0,1,3,False,66
+sample@email.com,Celebrate Gi Fortes' birthday,175,2022-07-04 12:12:00,2022-07-16 21:00:00,2022,28,0,1,12,False,282
+sample@email.com,Have an endoscopy,60,2022-07-13 15:13:00,2022-07-16 10:30:00,2022,28,1,0,3,False,261
+sample@email.com,Do the lab,4,2022-07-18 02:27:00,2022-07-18 12:00:00,2022,29,0,0,0,False,24
+sample@email.com,Go to the wedding,240,2022-07-30 02:17:00,2022-07-30 20:00:00,2022,30,1,0,0,False,280
+sample@email.com,Work,240,2022-08-02 18:00:00,2022-08-03 13:59:00,2022,31,5,0,1,False,123
+sample@email.com,Go to driving lesson,120,2022-08-09 07:49:00,2022-08-20 12:40:00,2022,33,6,1,11,False,265
+sample@email.com,Go to the gym,49,2022-08-11 20:01:00,2022-08-16 18:10:00,2022,33,9,1,5,False,84
+sample@email.com,Go to driving lesson,100,2022-08-27 12:14:00,2022-08-27 12:30:00,2022,34,15,0,0,False,265
+sample@email.com,Take Calculus exam 1,109,2022-09-04 21:03:00,2022-09-06 17:00:00,2022,36,15,1,2,False,82
+sample@email.com,Take Algebra exam 1,105,2022-09-08 08:35:00,2022-09-09 17:00:00,2022,36,17,0,1,False,226
+sample@email.com,Go to Rock in Rio,480,2022-09-08 14:17:00,2022-09-10 14:00:00,2022,36,18,0,2,False,268
+sample@email.com,Take computational probability test 1,120,2022-09-08 08:43:00,2022-09-12 09:00:00,2022,37,20,1,4,False,18
+sample@email.com,Take the Calculus Lab 1 evaluation,60,2022-09-12 16:27:00,2022-09-13 17:00:00,2022,37,21,0,1,False,82
+sample@email.com,Celebrate Amanda's birthday,240,2022-09-15 16:13:00,2022-09-17 20:00:00,2022,37,23,0,2,False,280
+sample@email.com,Celebrate Luana Maia's birthday,300,2022-09-15 16:13:00,2022-09-24 19:00:00,2022,38,15,1,9,False,278
+sample@email.com,Go to driving lesson,220,2022-09-21 22:31:00,2022-09-24 10:30:00,2022,38,16,0,3,False,261
+sample@email.com,Take Test 2 of Computational Probability,120,2022-09-15 20:32:00,2022-09-28 09:00:00,2022,39,15,2,13,False,114
+sample@email.com,Celebrate Lara's birthday,300,2022-09-25 18:59:00,2022-10-01 20:00:00,2022,39,16,1,6,False,280
+sample@email.com,Take Algebra assessment 3,480,2022-09-29 21:58:00,2022-09-30 00:00:00,2022,39,20,0,1,False,192
+sample@email.com,Go to driving lesson,289,2022-09-27 00:00:00,2022-10-08 09:00:00,2022,40,15,1,11,False,258
+sample@email.com,Take Algebra assessment 4,480,2022-10-12 00:00:00,2022-10-12 00:00:00,2022,41,15,0,0,False,96
+sample@email.com,Complete the week 6 activity,60,2022-10-20 12:02:00,2022-10-20 13:00:00,2022,42,13,0,0,False,170
+sample@email.com,Do the Week 7 activity,60,2022-10-20 12:02:00,2022-10-21 09:00:00,2022,42,14,0,1,False,210
+sample@email.com,Do the week 10 activity,60,2022-10-20 12:03:00,2022-10-22 09:00:00,2022,42,16,0,2,False,258
+sample@email.com,Do week 11 activity,60,2022-10-20 12:03:00,2022-10-23 09:00:00,2022,42,18,0,3,False,306
+sample@email.com,Take the extra Algebra assessment,420,2022-10-29 16:11:00,2022-10-29 17:00:00,2022,43,13,0,0,False,274
+sample@email.com,Go to psychiatrist appointment,70,2022-10-20 21:41:00,2022-11-04 17:45:00,2022,44,8,2,15,False,227
+sample@email.com,Take Algebra assessment 5,480,2022-11-10 10:37:00,2022-11-11 00:00:00,2022,45,8,0,1,False,192
+sample@email.com,Take Introduction to Computer Architecture Exam 2,60,2022-11-22 10:58:00,2022-12-01 10:00:00,2022,48,7,1,9,False,164
+sample@email.com,Go to guitar class,60,2022-11-21 21:19:00,2022-12-05 12:00:00,2022,49,8,2,14,False,24
+sample@email.com,Go to the dentist,60,2023-01-11 06:58:00,2023-01-11 10:30:00,2023,2,5,0,0,False,117
+sample@email.com,Have imaging exams,60,2023-01-11 07:19:00,2023-01-26 09:45:00,2023,4,5,2,15,False,163
+sample@email.com,Celebrate Isabella's birthday,480,2023-02-27 00:28:00,2023-03-11 13:00:00,2023,10,14,1,12,False,266
+sample@email.com,Have imaging exams,79,2023-03-13 09:39:00,2023-03-25 07:10:00,2023,12,14,1,12,False,254
+sample@email.com,Go to driving lesson,300,2023-03-26 20:14:00,2023-04-01 09:40:00,2023,13,13,1,6,False,259
+sample@email.com,Consult the dermatologist,60,2023-04-11 12:32:00,2023-04-14 10:40:00,2023,15,13,0,3,False,213
+sample@email.com,Celebrate birthday,360,2023-04-10 06:16:00,2023-04-21 20:00:00,2023,16,13,1,11,False,232
+sample@email.com,Do a test activity,480,2023-04-23 23:42:00,2023-04-25 00:00:00,2023,17,13,1,2,False,48
+sample@email.com,Celebrate Felipe's birthday,330,2023-05-07 06:40:00,2023-05-07 12:45:00,2023,18,12,0,0,False,313
+sample@email.com,See the ophthalmologist,45,2023-05-08 16:28:00,2023-05-13 10:15:00,2023,19,10,0,5,False,260
+sample@email.com,Celebrate Laura's birthday,300,2023-05-11 16:02:00,2023-05-13 19:00:00,2023,19,12,0,2,False,278
+sample@email.com,Go downtown,180,2023-05-11 22:48:00,2023-05-12 10:00:00,2023,19,13,0,1,False,212
+sample@email.com,Go to the gym,60,2023-05-16 00:03:00,2023-05-21 13:00:00,2023,20,10,0,5,False,314
+sample@email.com,Attend talk at PUC,60,2023-05-17 16:48:00,2023-05-19 11:30:00,2023,20,15,0,2,False,215
+sample@email.com,Celebrate Aninha's birthday,60,2023-05-24 09:06:00,2023-05-27 12:00:00,2023,21,18,0,3,False,264
+sample@email.com,Celebrate Rapha's birthday,270,2023-05-24 09:07:00,2023-05-27 13:30:00,2023,21,19,0,3,False,267
+sample@email.com,Take the practical driving test,360,2023-06-04 18:13:00,2023-06-05 03:00:00,2023,23,18,1,1,False,6
+sample@email.com,Take database test 1,120,2023-06-05 19:57:00,2023-06-06 17:00:00,2023,23,19,0,1,False,82
+sample@email.com,Go to psychiatrist appointment,90,2023-06-18 15:50:00,2023-06-24 14:00:00,2023,25,18,1,6,False,268
+sample@email.com,Present Object-Oriented Programming project,40,2023-06-27 16:44:00,2023-06-28 08:20:00,2023,26,15,0,1,False,112
+sample@email.com,Take database test 2,120,2023-06-27 16:47:00,2023-06-29 07:00:00,2023,26,16,0,2,False,158
+sample@email.com,Take girlfriend to the ballet,60,2023-07-01 01:43:00,2023-07-01 12:30:00,2023,26,19,0,0,False,265
+sample@email.com,Have a meeting with Nick and uncle,30,2023-06-26 21:00:00,2023-07-03 18:00:00,2023,27,12,1,7,False,36
+sample@email.com,Shop on Prime Day,480,2023-06-26 23:07:00,2023-07-11 00:00:00,2023,28,9,2,15,False,48
+sample@email.com,Celebrate Carol Benchimol's birthday,180,2023-08-01 23:41:00,2023-08-04 20:00:00,2023,31,13,0,3,False,232
+sample@email.com,Attend Duda Castro's party,480,2023-08-08 17:04:00,2023-08-12 16:00:00,2023,32,10,0,4,False,272
+sample@email.com,Have a barbecue with Marcos,300,2023-08-25 19:50:00,2023-09-03 14:00:00,2023,35,18,1,9,False,316
+sample@email.com,Participate in the alternative mapping,480,2023-08-26 03:19:00,2023-08-29 08:00:00,2023,35,19,1,3,False,64
+sample@email.com,Go to the gym,60,2023-09-12 01:17:00,2023-09-28 20:30:00,2023,39,15,2,16,False,185
+sample@email.com,Travel to Secretário,480,2023-10-22 19:20:00,2023-10-27 00:00:00,2023,43,15,1,5,False,192
+sample@email.com,Watch Os Barbixas,120,2023-11-23 00:54:00,2023-11-23 21:00:00,2023,47,17,0,0,False,186
+sample@email.com,Go to the gym,60,2023-12-07 02:21:00,2023-12-08 10:00:00,2023,49,7,0,1,False,212
+sample@email.com,Interview for the guelt opportunity,30,2023-12-20 10:13:00,2023-12-22 11:00:00,2023,51,14,0,2,False,214
+sample@email.com,Do the wwdc-ss crash challenge,480,2024-01-08 22:23:00,2024-01-15 15:00:00,2024,3,4,1,7,False,30
+sample@email.com,Get a haircut,60,2024-01-18 10:23:00,2024-01-18 11:00:00,2024,3,7,0,0,False,166
+sample@email.com,Play RPG with Goulart,240,2024-02-04 03:30:00,2024-02-04 17:00:00,2024,5,15,0,0,False,322
+sample@email.com,Go to the gym,60,2024-01-23 00:38:00,2024-02-07 11:00:00,2024,6,3,2,15,False,118
+sample@email.com,Take a singing class,60,2024-02-07 07:29:00,2024-02-07 19:00:00,2024,6,12,0,0,False,134
+sample@email.com,Celebrate Millena's birthday,210,2024-02-16 00:02:00,2024-02-17 19:30:00,2024,7,13,0,1,False,279
+sample@email.com,Celebrate Lu's birthday,60,2024-03-01 12:55:00,2024-03-01 20:00:00,2024,9,9,0,0,False,232
+sample@email.com,Celebrate Caroli's birthday,150,2024-03-07 16:39:00,2024-03-07 19:30:00,2024,10,20,0,0,False,183
+sample@email.com,Celebrate Bernardo's birthday,330,2024-04-04 23:15:00,2024-04-14 19:00:00,2024,15,15,1,10,False,326
+sample@email.com,Attend Renata's graduation,120,2024-04-22 13:12:00,2024-04-27 16:00:00,2024,17,14,0,5,False,272
+sample@email.com,Take Advanced Data Structures exam 2,120,2024-06-20 12:29:00,2024-06-25 11:00:00,2024,26,15,1,5,False,70
+sample@email.com,Celebrate Lucca's birthday,480,2024-07-01 01:39:00,2024-07-06 20:00:00,2024,27,15,0,5,False,280
+sample@email.com,Present the second assignment,120,2024-07-03 21:31:00,2024-07-04 11:00:00,2024,27,16,0,1,False,166
+sample@email.com,Take the final exam of Advanced Data Structures,120,2024-07-03 21:32:00,2024-07-05 11:00:00,2024,27,17,0,2,False,214
+sample@email.com,Have a meeting about the Atlas program,30,2024-07-11 23:25:00,2024-07-12 09:00:00,2024,28,15,0,1,False,210
+sample@email.com,Play basketball at PUC,120,2024-07-25 16:18:00,2024-07-27 10:00:00,2024,30,9,0,2,False,260
+sample@email.com,Go to psychologist appointment,60,2024-07-31 01:12:00,2024-07-31 11:20:00,2024,31,5,0,0,False,118
+sample@email.com,Attend inf1920 lecture,60,2024-08-12 00:10:00,2024-08-23 08:00:00,2024,34,6,1,11,False,208
+sample@email.com,Submit the game to the gmkt jam,60,2024-08-19 21:21:00,2024-08-20 10:30:00,2024,34,18,0,1,False,69
+sample@email.com,Talk with Bruno,75,2024-09-02 13:07:00,2024-09-02 14:00:00,2024,36,17,0,0,False,28
+sample@email.com,Take exam 1 on lexical and syntactic analyzers,120,2024-09-16 11:07:00,2024-09-23 11:00:00,2024,39,15,1,7,False,22
+sample@email.com,Celebrate Caio's birthday,360,2024-09-24 15:57:00,2024-10-05 18:00:00,2024,40,14,1,11,False,276
+sample@email.com,Kick off the WWDC education,60,2024-10-11 23:23:00,2024-10-15 11:00:00,2024,42,13,1,4,False,70
+sample@email.com,Go through the first steps of WWDC learning,60,2024-10-15 12:11:00,2024-10-19 12:00:00,2024,42,14,0,4,False,264
+sample@email.com,Have the Play Time meeting with Goulart,60,2024-11-12 12:30:00,2024-11-13 21:00:00,2024,46,11,0,1,False,138
+sample@email.com,Present at the internship,120,2024-11-12 16:07:00,2024-11-29 09:00:00,2024,48,10,2,17,False,210
+sample@email.com,See the nutritionist,120,2024-12-18 12:08:00,2024-12-19 10:00:00,2024,51,5,0,1,False,164
+sample@email.com,Go to the gym,90,2025-01-07 10:12:00,2025-01-18 09:30:00,2025,3,12,1,11,False,259
+sample@email.com,Have a morning snack,4,2025-01-07 10:14:00,2025-01-17 09:30:00,2025,3,18,1,10,False,211
+sample@email.com,Go to the birusamba de verão,360,2025-01-22 14:22:00,2025-01-25 21:00:00,2025,4,52,0,3,False,282
+sample@email.com,Go to the dentist,60,2025-01-24 01:06:00,2025-01-28 14:30:00,2025,5,49,1,4,False,77
+sample@email.com,Attend the Play Time meeting,60,2025-02-06 02:17:00,2025-02-06 13:45:00,2025,6,50,0,0,False,171
+sample@email.com,Have breakfast,19,2025-03-10 10:17:00,2025-03-11 07:15:00,2025,11,40,0,1,False,62
+sample@email.com,Have breakfast,19,2025-03-10 10:17:00,2025-03-12 08:30:00,2025,11,42,0,2,False,113
+sample@email.com,Get a haircut,45,2025-03-11 16:38:00,2025-03-14 19:00:00,2025,11,65,0,3,False,230
+sample@email.com,Discuss the Thesis with advisor,30,2025-03-12 10:13:00,2025-03-14 11:00:00,2025,11,66,0,2,False,214
+sample@email.com,Go to the gym,70,2025-03-10 10:17:00,2025-03-24 19:45:00,2025,13,45,2,14,False,39
+sample@email.com,Take Calculus II test,120,2025-03-30 21:23:00,2025-04-03 17:00:00,2025,14,63,1,4,False,178
+sample@email.com,Go to psychiatrist appointment,60,2025-04-06 15:24:00,2025-04-09 11:00:00,2025,15,65,1,3,False,118
+sample@email.com,Attend developer internship interview,30,2025-04-28 15:03:00,2025-04-29 14:00:00,2025,18,61,0,1,False,76
+sample@email.com,Attend internship interview,45,2025-05-05 18:19:00,2025-05-06 17:00:00,2025,19,61,0,1,False,82
+sample@email.com,Evento sem título,60,2025-06-04 03:36:00,2025-06-05 19:00:00,2025,23,70,0,1,False,182
+sample@email.com,Take Calculus exam 3,109,2025-06-21 15:41:00,2025-06-27 17:00:00,2025,26,69,1,6,False,226

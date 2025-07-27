@@ -251,6 +251,7 @@ class NETSDataset(object):
     def process_data(self, path, update_dict=False):
         print('### processing %s' % path)
         total_data = list()
+        filtered_raw_data = list()  # Para exportar dados filtrados no formato original
         max_wordlen = max_sentlen = max_dur = max_context = 0
         min_dur = float("inf")
         max_slot_idx = (self.slot_size // self.class_div) - 1
@@ -400,6 +401,10 @@ class NETSDataset(object):
                 if (reg_st_week_dist <= self.max_rs_dist
                         and len(input_context) <= self.max_context
                         and 'False' == is_recurrent):
+
+                    # Salvar dados brutos que passaram pelo filtro (formato original de 12 colunas)
+                    filtered_raw_data.append(features)
+
                     max_context = max_context \
                         if max_context > len(input_context) \
                         else len(input_context)
@@ -428,6 +433,19 @@ class NETSDataset(object):
         print('max context', max_context)
         print('max wordlen', max_wordlen)
         print('max sentlen', max_sentlen, end='\n\n')
+
+        # Export filtered data in original format (12 columns)
+        import pandas as pd
+        if filtered_raw_data:
+            # Criar DataFrame com os dados filtrados no formato original
+            columns = ['email_address', 'title', 'duration_minute', 'register_time', 'start_time',
+                      'start_iso_year', 'start_iso_week', 'week_register_sequence',
+                      'register_start_week_distance', 'register_start_day_distance',
+                      'is_recurrent', 'start_time_slot']
+
+            filtered_df = pd.DataFrame(filtered_raw_data, columns=columns)
+            filtered_df.to_csv('./data/filtered_model_data.csv', index=False, header=True)
+            print(f'Exported {len(filtered_raw_data)} filtered events to filtered_model_data.csv (original format with headers)')
 
         return total_data
 

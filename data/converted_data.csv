@@ -1,12 +1,12 @@
 sample@email.com,Attend the school graduation,480,2017-11-27 06:58:00,2017-12-14 23:00:00,2017,50,0,2,17,False,190
 sample@email.com,Help!,360,2017-11-27 01:29:00,2018-02-03 17:00:00,2018,5,0,9,68,False,274
 sample@email.com,Do Muay Thai,70,2018-08-07 08:29:00,2018-08-07 21:00:00,2018,32,0,0,0,True,90
-sample@email.com,Go to the gym,60,2018-08-07 08:45:00,2018-08-06 17:30:00,2018,32,1,0,0,True,35
+sample@email.com,Go to the gym,60,2018-08-07 08:45:00,2018-08-06 17:30:00,2018,32,1,-1,0,True,35
 sample@email.com,Go to the gym,60,2018-08-07 08:46:00,2018-08-08 17:30:00,2018,32,2,0,1,True,131
 sample@email.com,Go to the gym,60,2018-08-07 08:47:00,2018-08-10 17:30:00,2018,32,3,0,3,True,227
 sample@email.com,Do Muay Thai,60,2018-08-07 08:51:00,2018-08-09 21:00:00,2018,32,4,0,2,True,186
-sample@email.com,Attend class,480,2018-08-07 08:52:00,2018-08-06 07:20:00,2018,32,5,0,0,True,14
-sample@email.com,Attend class,330,2018-08-07 08:53:00,2018-08-07 07:20:00,2018,32,6,0,0,True,62
+sample@email.com,Attend class,480,2018-08-07 08:52:00,2018-08-06 07:20:00,2018,32,5,-1,0,True,14
+sample@email.com,Attend class,330,2018-08-07 08:53:00,2018-08-07 07:20:00,2018,32,6,-1,0,True,62
 sample@email.com,Attend class,480,2018-08-07 08:54:00,2018-08-08 07:20:00,2018,32,7,0,1,True,110
 sample@email.com,Attend class,330,2018-08-07 08:55:00,2018-08-09 07:20:00,2018,32,8,0,2,True,158
 sample@email.com,Attend class,319,2018-08-07 08:55:00,2018-08-10 07:20:00,2018,32,9,0,3,True,206
@@ -277,7 +277,7 @@ sample@email.com,Go to the gym,75,2022-01-24 08:56:00,2022-01-24 15:45:00,2022,4
 sample@email.com,Have chiropractic,120,2022-01-24 09:01:00,2022-01-27 14:45:00,2022,4,5,0,3,True,173
 sample@email.com,Tidy up,30,2022-01-24 22:32:00,2022-01-25 07:25:00,2022,4,6,0,1,False,62
 sample@email.com,Go to Barra Shopping,135,2022-01-27 10:59:00,2022-01-27 18:00:00,2022,4,7,0,0,False,180
-sample@email.com,Go to psychologist appointment,49,2022-03-05 12:53:00,2022-01-24 14:00:00,2022,4,8,0,0,False,28
+sample@email.com,Go to psychologist appointment,49,2022-03-05 12:53:00,2022-01-24 14:00:00,2022,4,8,-1,0,False,28
 sample@email.com,Go to psychologist appointment,49,2022-02-01 13:59:00,2022-02-02 18:00:00,2022,5,0,0,1,False,132
 sample@email.com,Celebrate Gabi's birthday,240,2022-02-01 16:47:00,2022-02-04 20:00:00,2022,5,1,0,3,False,232
 sample@email.com,Celebrate Sofia K's birthday,240,2022-02-04 22:59:00,2022-02-05 20:00:00,2022,5,2,0,1,False,280
@@ -296,24 +296,24 @@ sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,202
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-03-09 14:00:00,2022,10,2,0,2,True,124
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-03-10 14:00:00,2022,10,3,0,3,True,172
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-03-11 14:00:00,2022,10,4,0,4,True,220
-sample@email.com,Attend modular programming class for INF1301,120,2022-04-04 15:21:00,2022-03-08 07:00:00,2022,10,5,0,0,True,62
-sample@email.com,Attend modular programming class for INF1301,120,2022-04-04 15:21:00,2022-03-10 07:00:00,2022,10,6,0,0,True,158
-sample@email.com,Attend inf1018 - basic software class,120,2022-04-04 15:22:00,2022-03-08 09:00:00,2022,10,7,0,0,True,66
-sample@email.com,Attend mat1260 - Linear Algebra 1 class,120,2022-04-04 15:22:00,2022-03-08 11:00:00,2022,10,8,0,0,True,70
-sample@email.com,Attend inf1018 - basic software class,120,2022-04-04 15:22:00,2022-03-10 09:00:00,2022,10,9,0,0,True,162
-sample@email.com,Attend mat1260 - Linear Algebra 1 class,120,2022-04-04 15:22:00,2022-03-10 11:00:00,2022,10,10,0,0,True,166
+sample@email.com,Attend modular programming class for INF1301,120,2022-04-04 15:21:00,2022-03-08 07:00:00,2022,10,5,-1,0,True,62
+sample@email.com,Attend modular programming class for INF1301,120,2022-04-04 15:21:00,2022-03-10 07:00:00,2022,10,6,-1,0,True,158
+sample@email.com,Attend inf1018 - basic software class,120,2022-04-04 15:22:00,2022-03-08 09:00:00,2022,10,7,-1,0,True,66
+sample@email.com,Attend mat1260 - Linear Algebra 1 class,120,2022-04-04 15:22:00,2022-03-08 11:00:00,2022,10,8,-1,0,True,70
+sample@email.com,Attend inf1018 - basic software class,120,2022-04-04 15:22:00,2022-03-10 09:00:00,2022,10,9,-1,0,True,162
+sample@email.com,Attend mat1260 - Linear Algebra 1 class,120,2022-04-04 15:22:00,2022-03-10 11:00:00,2022,10,10,-1,0,True,166
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-03-14 14:00:00,2022,11,0,1,7,True,28
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-03-15 14:00:00,2022,11,1,1,8,True,76
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-03-16 14:00:00,2022,11,2,1,9,True,124
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-03-17 14:00:00,2022,11,3,1,10,True,172
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-03-18 14:00:00,2022,11,4,1,11,True,220
 sample@email.com,Participate in the mapping session,120,2022-03-11 13:12:00,2022-03-16 14:00:00,2022,11,5,1,5,False,124
-sample@email.com,Attend modular programming class for INF1301,120,2022-04-04 15:21:00,2022-03-15 07:00:00,2022,11,6,0,0,True,62
-sample@email.com,Attend modular programming class for INF1301,120,2022-04-04 15:21:00,2022-03-17 07:00:00,2022,11,7,0,0,True,158
-sample@email.com,Attend inf1018 - basic software class,120,2022-04-04 15:22:00,2022-03-15 09:00:00,2022,11,8,0,0,True,66
-sample@email.com,Attend mat1260 - Linear Algebra 1 class,120,2022-04-04 15:22:00,2022-03-15 11:00:00,2022,11,9,0,0,True,70
-sample@email.com,Attend inf1018 - basic software class,120,2022-04-04 15:22:00,2022-03-17 09:00:00,2022,11,10,0,0,True,162
-sample@email.com,Attend mat1260 - Linear Algebra 1 class,120,2022-04-04 15:22:00,2022-03-17 11:00:00,2022,11,11,0,0,True,166
+sample@email.com,Attend modular programming class for INF1301,120,2022-04-04 15:21:00,2022-03-15 07:00:00,2022,11,6,-1,0,True,62
+sample@email.com,Attend modular programming class for INF1301,120,2022-04-04 15:21:00,2022-03-17 07:00:00,2022,11,7,-1,0,True,158
+sample@email.com,Attend inf1018 - basic software class,120,2022-04-04 15:22:00,2022-03-15 09:00:00,2022,11,8,-1,0,True,66
+sample@email.com,Attend mat1260 - Linear Algebra 1 class,120,2022-04-04 15:22:00,2022-03-15 11:00:00,2022,11,9,-1,0,True,70
+sample@email.com,Attend inf1018 - basic software class,120,2022-04-04 15:22:00,2022-03-17 09:00:00,2022,11,10,-1,0,True,162
+sample@email.com,Attend mat1260 - Linear Algebra 1 class,120,2022-04-04 15:22:00,2022-03-17 11:00:00,2022,11,11,-1,0,True,166
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-03-21 14:00:00,2022,12,0,2,14,True,28
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-03-22 14:00:00,2022,12,1,2,15,True,76
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-03-23 14:00:00,2022,12,2,2,16,True,124
@@ -322,12 +322,12 @@ sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,202
 sample@email.com,Take Algebra test 1,480,2022-03-17 11:21:00,2022-03-25 00:00:00,2022,12,5,1,8,False,192
 sample@email.com,Animate ideas with Keynote,60,2022-03-21 23:56:00,2022-03-22 19:00:00,2022,12,6,0,1,False,86
 sample@email.com,Have lunch with grandma,165,2022-03-26 00:27:00,2022-03-26 14:00:00,2022,12,7,0,0,False,268
-sample@email.com,Attend modular programming class for INF1301,120,2022-04-04 15:21:00,2022-03-22 07:00:00,2022,12,8,0,0,True,62
-sample@email.com,Attend modular programming class for INF1301,120,2022-04-04 15:21:00,2022-03-24 07:00:00,2022,12,9,0,0,True,158
-sample@email.com,Attend inf1018 - basic software class,120,2022-04-04 15:22:00,2022-03-22 09:00:00,2022,12,10,0,0,True,66
-sample@email.com,Attend mat1260 - Linear Algebra 1 class,120,2022-04-04 15:22:00,2022-03-22 11:00:00,2022,12,11,0,0,True,70
-sample@email.com,Attend inf1018 - basic software class,120,2022-04-04 15:22:00,2022-03-24 09:00:00,2022,12,12,0,0,True,162
-sample@email.com,Attend mat1260 - Linear Algebra 1 class,120,2022-04-04 15:22:00,2022-03-24 11:00:00,2022,12,13,0,0,True,166
+sample@email.com,Attend modular programming class for INF1301,120,2022-04-04 15:21:00,2022-03-22 07:00:00,2022,12,8,-1,0,True,62
+sample@email.com,Attend modular programming class for INF1301,120,2022-04-04 15:21:00,2022-03-24 07:00:00,2022,12,9,-1,0,True,158
+sample@email.com,Attend inf1018 - basic software class,120,2022-04-04 15:22:00,2022-03-22 09:00:00,2022,12,10,-1,0,True,66
+sample@email.com,Attend mat1260 - Linear Algebra 1 class,120,2022-04-04 15:22:00,2022-03-22 11:00:00,2022,12,11,-1,0,True,70
+sample@email.com,Attend inf1018 - basic software class,120,2022-04-04 15:22:00,2022-03-24 09:00:00,2022,12,12,-1,0,True,162
+sample@email.com,Attend mat1260 - Linear Algebra 1 class,120,2022-04-04 15:22:00,2022-03-24 11:00:00,2022,12,13,-1,0,True,166
 sample@email.com,Attend class,360,2022-03-07 01:53:00,2022-03-29 07:00:00,2022,13,0,3,22,True,62
 sample@email.com,Attend class,360,2022-03-07 01:53:00,2022-03-31 07:00:00,2022,13,1,3,24,True,158
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-03-28 14:00:00,2022,13,2,3,21,True,28
@@ -336,11 +336,11 @@ sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,202
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-03-31 14:00:00,2022,13,5,3,24,True,172
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-04-01 14:00:00,2022,13,6,3,25,True,220
 sample@email.com,Go to the party,480,2022-03-31 13:57:00,2022-04-01 22:00:00,2022,13,7,0,1,True,236
-sample@email.com,Attend inf1018 - basic software class,120,2022-04-04 15:22:00,2022-03-29 09:00:00,2022,13,8,0,0,True,66
-sample@email.com,Conduct INF1018 tutoring,120,2022-04-04 15:22:00,2022-03-29 09:00:00,2022,13,9,0,0,False,66
-sample@email.com,Attend mat1260 - Linear Algebra 1 class,120,2022-04-04 15:22:00,2022-03-29 11:00:00,2022,13,10,0,0,True,70
-sample@email.com,Attend inf1018 - basic software class,120,2022-04-04 15:22:00,2022-03-31 09:00:00,2022,13,11,0,0,True,162
-sample@email.com,Attend mat1260 - Linear Algebra 1 class,120,2022-04-04 15:22:00,2022-03-31 11:00:00,2022,13,12,0,0,True,166
+sample@email.com,Attend inf1018 - basic software class,120,2022-04-04 15:22:00,2022-03-29 09:00:00,2022,13,8,-1,0,True,66
+sample@email.com,Conduct INF1018 tutoring,120,2022-04-04 15:22:00,2022-03-29 09:00:00,2022,13,9,-1,0,False,66
+sample@email.com,Attend mat1260 - Linear Algebra 1 class,120,2022-04-04 15:22:00,2022-03-29 11:00:00,2022,13,10,-1,0,True,70
+sample@email.com,Attend inf1018 - basic software class,120,2022-04-04 15:22:00,2022-03-31 09:00:00,2022,13,11,-1,0,True,162
+sample@email.com,Attend mat1260 - Linear Algebra 1 class,120,2022-04-04 15:22:00,2022-03-31 11:00:00,2022,13,12,-1,0,True,166
 sample@email.com,Attend class,360,2022-03-07 01:53:00,2022-04-05 07:00:00,2022,14,0,4,29,True,62
 sample@email.com,Attend class,360,2022-03-07 01:53:00,2022-04-07 07:00:00,2022,14,1,4,31,True,158
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-04-04 14:00:00,2022,14,2,4,28,True,28
@@ -351,7 +351,7 @@ sample@email.com,Work at the Apple Developer Academy,330,2022-03-07 02:14:00,202
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-04-08 14:00:00,2022,14,7,4,32,True,220
 sample@email.com,Have an imaging exam,60,2022-03-26 10:06:00,2022-04-09 15:00:00,2022,14,8,2,14,False,270
 sample@email.com,Go to psychologist appointment,49,2022-04-01 13:15:00,2022-04-06 10:00:00,2022,14,9,1,5,True,116
-sample@email.com,Program scene,480,2022-04-09 12:34:00,2022-04-09 00:00:00,2022,14,10,0,0,False,240
+sample@email.com,Program scene,480,2022-04-09 12:34:00,2022-04-09 00:00:00,2022,14,10,-1,0,False,240
 sample@email.com,Attend class,360,2022-03-07 01:53:00,2022-04-12 07:00:00,2022,15,0,5,36,True,62
 sample@email.com,Attend class,360,2022-03-07 01:53:00,2022-04-14 07:00:00,2022,15,1,5,38,True,158
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-04-11 14:00:00,2022,15,2,5,35,True,28
@@ -359,7 +359,7 @@ sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,202
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-04-13 14:00:00,2022,15,4,5,37,True,124
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-04-14 14:00:00,2022,15,5,5,38,True,172
 sample@email.com,Work at the Apple Developer Academy,240,2022-03-07 02:14:00,2022-04-15 14:00:00,2022,15,6,5,39,True,220
-sample@email.com,Take Algebra test 2,480,2022-04-13 15:04:00,2022-04-13 00:00:00,2022,15,7,0,0,False,96
+sample@email.com,Take Algebra test 2,480,2022-04-13 15:04:00,2022-04-13 00:00:00,2022,15,7,-1,0,False,96
 sample@email.com,Consult the dermatologist,40,2022-04-14 10:16:00,2022-04-14 11:20:00,2022,15,8,0,0,False,166
 sample@email.com,Attend class,360,2022-03-07 01:53:00,2022-04-19 07:00:00,2022,16,0,6,43,True,62
 sample@email.com,Attend class,360,2022-03-07 01:53:00,2022-04-19 07:00:00,2022,16,1,6,43,True,62
@@ -375,7 +375,7 @@ sample@email.com,Take INF1018 exam 1,105,2022-04-26 09:54:00,2022-05-05 09:00:00
 sample@email.com,Go to psychologist appointment,49,2022-05-05 11:17:00,2022-05-05 19:00:00,2022,18,2,0,0,True,182
 sample@email.com,Have lunch with grandma,180,2022-04-14 10:11:00,2022-05-14 13:00:00,2022,19,0,4,30,True,266
 sample@email.com,Go to psychologist appointment,49,2022-05-12 22:41:00,2022-05-13 11:00:00,2022,19,1,0,1,True,214
-sample@email.com,Study,300,2022-05-16 10:30:00,2022-05-16 07:00:00,2022,20,0,0,0,True,14
+sample@email.com,Study,300,2022-05-16 10:30:00,2022-05-16 07:00:00,2022,20,0,-1,0,True,14
 sample@email.com,Study,300,2022-05-16 10:30:00,2022-05-18 07:00:00,2022,20,1,0,2,True,110
 sample@email.com,Study,300,2022-05-16 10:30:00,2022-05-20 07:00:00,2022,20,2,0,4,True,206
 sample@email.com,Take Algebra test 3,480,2022-05-16 10:39:00,2022-05-20 00:00:00,2022,20,3,0,4,False,192
@@ -392,15 +392,15 @@ sample@email.com,Take Modular Programming exam 2,120,2022-05-06 21:05:00,2022-07
 sample@email.com,Take Algebra exam 3,109,2022-06-27 02:16:00,2022-07-01 17:00:00,2022,26,1,0,4,True,226
 sample@email.com,Celebrate Gi Fortes' birthday,175,2022-07-04 12:12:00,2022-07-16 21:00:00,2022,28,0,1,12,False,282
 sample@email.com,Have an endoscopy,60,2022-07-13 15:13:00,2022-07-16 10:30:00,2022,28,1,0,3,False,261
-sample@email.com,Attend the mock enrollment,480,2022-07-16 03:52:00,2022-07-16 00:00:00,2022,28,2,0,0,False,240
+sample@email.com,Attend the mock enrollment,480,2022-07-16 03:52:00,2022-07-16 00:00:00,2022,28,2,-1,0,False,240
 sample@email.com,Do the lab,4,2022-07-18 02:27:00,2022-07-18 12:00:00,2022,29,0,0,0,False,24
-sample@email.com,Go to driving lesson,60,2022-07-26 12:30:00,2022-07-23 12:00:00,2022,29,1,0,0,True,264
+sample@email.com,Go to driving lesson,60,2022-07-26 12:30:00,2022-07-23 12:00:00,2022,29,1,-1,0,True,264
 sample@email.com,Enroll at PUC,120,2022-07-18 14:01:00,2022-07-27 08:00:00,2022,30,0,1,9,True,112
 sample@email.com,Go to the wedding,240,2022-07-30 02:17:00,2022-07-30 20:00:00,2022,30,1,0,0,False,280
 sample@email.com,Participate in the course registration adjustment,120,2022-08-01 14:39:00,2022-08-05 11:00:00,2022,31,0,0,4,True,214
 sample@email.com,Work at the Apple Developer Academy,240,2022-08-02 17:53:00,2022-08-03 14:00:00,2022,31,1,0,1,True,124
-sample@email.com,Work,240,2022-08-02 18:00:00,2022-08-01 14:00:00,2022,31,2,0,0,True,28
-sample@email.com,Work,240,2022-08-02 18:00:00,2022-08-02 14:00:00,2022,31,3,0,0,True,76
+sample@email.com,Work,240,2022-08-02 18:00:00,2022-08-01 14:00:00,2022,31,2,-1,0,True,28
+sample@email.com,Work,240,2022-08-02 18:00:00,2022-08-02 14:00:00,2022,31,3,-1,0,True,76
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-08-03 14:00:00,2022,31,4,0,1,True,124
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-08-03 13:59:00,2022,31,5,0,1,False,123
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-08-04 14:00:00,2022,31,6,0,2,True,172
@@ -427,7 +427,7 @@ sample@email.com,Go to the gym,49,2022-08-11 20:01:00,2022-08-16 18:10:00,2022,3
 sample@email.com,Go to the gym,49,2022-08-11 20:01:00,2022-08-17 11:20:00,2022,33,10,1,6,True,118
 sample@email.com,Go to the gym,49,2022-08-11 20:01:00,2022-08-18 11:20:00,2022,33,11,1,7,True,166
 sample@email.com,Go to the gym,49,2022-08-11 20:01:00,2022-08-19 11:20:00,2022,33,12,1,8,True,214
-sample@email.com,Attend class,240,2022-08-16 07:24:00,2022-08-16 07:00:00,2022,33,13,0,0,True,62
+sample@email.com,Attend class,240,2022-08-16 07:24:00,2022-08-16 07:00:00,2022,33,13,-1,0,True,62
 sample@email.com,Attend class,240,2022-08-16 07:24:00,2022-08-17 07:00:00,2022,33,14,0,1,True,110
 sample@email.com,Attend class,240,2022-08-16 07:24:00,2022-08-18 07:00:00,2022,33,15,0,2,True,158
 sample@email.com,Attend class,240,2022-08-16 07:24:00,2022-08-19 07:00:00,2022,33,16,0,3,True,206
@@ -481,7 +481,7 @@ sample@email.com,Take Calculus exam 1,109,2022-09-04 21:03:00,2022-09-06 17:00:0
 sample@email.com,Take Algebra Test 1 with Maple,60,2022-09-05 20:52:00,2022-09-08 07:00:00,2022,36,16,0,3,False,158
 sample@email.com,Take Algebra exam 1,105,2022-09-08 08:35:00,2022-09-09 17:00:00,2022,36,17,0,1,False,226
 sample@email.com,Go to Rock in Rio,480,2022-09-08 14:17:00,2022-09-10 14:00:00,2022,36,18,0,2,False,268
-sample@email.com,Take Algebra assessment 2,480,2022-09-09 16:05:00,2022-09-09 00:00:00,2022,36,19,0,0,False,192
+sample@email.com,Take Algebra assessment 2,480,2022-09-09 16:05:00,2022-09-09 00:00:00,2022,36,19,-1,0,False,192
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-09-12 14:00:00,2022,37,0,6,41,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-09-13 14:00:00,2022,37,1,6,42,True,76
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-09-14 14:00:00,2022,37,2,6,43,True,124
@@ -541,8 +541,8 @@ sample@email.com,Attend class,120,2022-08-26 06:38:00,2022-09-30 07:00:00,2022,3
 sample@email.com,Take Test 2 of Computational Probability,120,2022-09-15 20:32:00,2022-09-28 09:00:00,2022,39,15,2,13,False,114
 sample@email.com,Celebrate Lara's birthday,300,2022-09-25 18:59:00,2022-10-01 20:00:00,2022,39,16,1,6,False,280
 sample@email.com,Go to driving lesson,229,2022-09-26 01:42:00,2022-10-01 08:00:00,2022,39,17,0,5,True,256
-sample@email.com,Do assignment 3 for Introduction to Computer Architecture,480,2022-09-29 11:42:00,2022-09-27 00:00:00,2022,39,18,0,0,False,48
-sample@email.com,Do the ProbComp G1 assignment,480,2022-09-29 17:58:00,2022-09-27 17:00:00,2022,39,19,0,0,False,82
+sample@email.com,Do assignment 3 for Introduction to Computer Architecture,480,2022-09-29 11:42:00,2022-09-27 00:00:00,2022,39,18,-1,0,False,48
+sample@email.com,Do the ProbComp G1 assignment,480,2022-09-29 17:58:00,2022-09-27 17:00:00,2022,39,19,-1,0,False,82
 sample@email.com,Take Algebra assessment 3,480,2022-09-29 21:58:00,2022-09-30 00:00:00,2022,39,20,0,1,False,192
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-10-03 14:00:00,2022,40,0,9,62,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-10-04 14:00:00,2022,40,1,9,63,True,76
@@ -586,17 +586,17 @@ sample@email.com,Attend class,120,2022-08-26 06:38:00,2022-10-21 07:00:00,2022,4
 sample@email.com,Take Algebra Test 2 with Maple,60,2022-09-29 07:41:00,2022-10-18 07:00:00,2022,42,6,3,19,False,62
 sample@email.com,Take Algebra exam 2,169,2022-09-29 07:42:00,2022-10-19 17:00:00,2022,42,7,3,20,False,130
 sample@email.com,Do Calculus activity 2,480,2022-09-29 07:44:00,2022-10-21 17:00:00,2022,42,8,3,22,False,226
-sample@email.com,Attend class,120,2022-10-20 07:31:00,2022-10-17 07:00:00,2022,42,9,0,0,True,14
-sample@email.com,Attend class,240,2022-10-20 07:31:00,2022-10-18 07:00:00,2022,42,10,0,0,True,62
-sample@email.com,Attend class,120,2022-10-20 07:31:00,2022-10-19 07:00:00,2022,42,11,0,0,True,110
-sample@email.com,Attend class,240,2022-10-20 07:59:00,2022-10-20 07:00:00,2022,42,12,0,0,True,158
+sample@email.com,Attend class,120,2022-10-20 07:31:00,2022-10-17 07:00:00,2022,42,9,-1,0,True,14
+sample@email.com,Attend class,240,2022-10-20 07:31:00,2022-10-18 07:00:00,2022,42,10,-1,0,True,62
+sample@email.com,Attend class,120,2022-10-20 07:31:00,2022-10-19 07:00:00,2022,42,11,-1,0,True,110
+sample@email.com,Attend class,240,2022-10-20 07:59:00,2022-10-20 07:00:00,2022,42,12,-1,0,True,158
 sample@email.com,Complete the week 6 activity,60,2022-10-20 12:02:00,2022-10-20 13:00:00,2022,42,13,0,0,False,170
 sample@email.com,Do the Week 7 activity,60,2022-10-20 12:02:00,2022-10-21 09:00:00,2022,42,14,0,1,False,210
 sample@email.com,Do week 8 activity,60,2022-10-20 12:03:00,2022-10-21 09:00:00,2022,42,15,0,1,False,210
 sample@email.com,Do the week 10 activity,60,2022-10-20 12:03:00,2022-10-22 09:00:00,2022,42,16,0,2,False,258
 sample@email.com,Do the week 9 activity,60,2022-10-20 12:03:00,2022-10-22 09:00:00,2022,42,17,0,2,False,258
 sample@email.com,Do week 11 activity,60,2022-10-20 12:03:00,2022-10-23 09:00:00,2022,42,18,0,3,False,306
-sample@email.com,Go to the gym,13,2022-10-20 19:25:00,2022-10-20 19:12:00,2022,42,19,0,0,False,182
+sample@email.com,Go to the gym,13,2022-10-20 19:25:00,2022-10-20 19:12:00,2022,42,19,-1,0,False,182
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-10-24 14:00:00,2022,43,0,12,83,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-10-25 14:00:00,2022,43,1,12,84,True,76
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-10-26 14:00:00,2022,43,2,12,85,True,124
@@ -609,9 +609,9 @@ sample@email.com,Attend class,120,2022-10-20 07:31:00,2022-10-24 07:00:00,2022,4
 sample@email.com,Attend class,120,2022-10-20 07:31:00,2022-10-26 07:00:00,2022,43,9,1,6,True,110
 sample@email.com,Attend class,240,2022-10-20 07:59:00,2022-10-25 07:00:00,2022,43,10,1,5,True,62
 sample@email.com,Attend class,240,2022-10-20 07:59:00,2022-10-27 07:00:00,2022,43,11,1,7,True,158
-sample@email.com,Go to the gym,16,2022-10-26 14:19:00,2022-10-26 14:02:00,2022,43,12,0,0,True,124
+sample@email.com,Go to the gym,16,2022-10-26 14:19:00,2022-10-26 14:02:00,2022,43,12,-1,0,True,124
 sample@email.com,Take the extra Algebra assessment,420,2022-10-29 16:11:00,2022-10-29 17:00:00,2022,43,13,0,0,False,274
-sample@email.com,Go to the gym,480,2022-10-31 03:51:00,2022-10-26 14:02:00,2022,43,14,0,0,True,124
+sample@email.com,Go to the gym,480,2022-10-31 03:51:00,2022-10-26 14:02:00,2022,43,14,-1,0,True,124
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-10-31 14:00:00,2022,44,0,13,90,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-11-01 14:00:00,2022,44,1,13,91,True,76
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-11-02 14:00:00,2022,44,2,13,92,True,124
@@ -621,8 +621,8 @@ sample@email.com,Attend class,120,2022-08-26 06:38:00,2022-11-04 07:00:00,2022,4
 sample@email.com,Attend class,240,2022-10-20 07:59:00,2022-11-01 07:00:00,2022,44,6,2,12,True,62
 sample@email.com,Attend class,240,2022-10-20 07:59:00,2022-11-03 07:00:00,2022,44,7,2,14,True,158
 sample@email.com,Go to psychiatrist appointment,70,2022-10-20 21:41:00,2022-11-04 17:45:00,2022,44,8,2,15,False,227
-sample@email.com,Take the extra Algebra assessment,480,2022-11-01 08:08:00,2022-11-01 00:00:00,2022,44,9,0,0,True,48
-sample@email.com,Take the extra algebra assessment,480,2022-11-04 16:25:00,2022-11-04 00:00:00,2022,44,10,0,0,True,192
+sample@email.com,Take the extra Algebra assessment,480,2022-11-01 08:08:00,2022-11-01 00:00:00,2022,44,9,-1,0,True,48
+sample@email.com,Take the extra algebra assessment,480,2022-11-04 16:25:00,2022-11-04 00:00:00,2022,44,10,-1,0,True,192
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-11-07 14:00:00,2022,45,0,14,97,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-11-08 14:00:00,2022,45,1,14,98,True,76
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-11-09 14:00:00,2022,45,2,14,99,True,124
@@ -640,7 +640,7 @@ sample@email.com,Work,240,2022-08-02 18:00:00,2022-11-17 14:00:00,2022,46,4,15,1
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-11-18 14:00:00,2022,46,5,15,108,True,220
 sample@email.com,Attend class,240,2022-10-20 07:59:00,2022-11-15 07:00:00,2022,46,6,4,26,True,62
 sample@email.com,Attend class,240,2022-10-20 07:59:00,2022-11-17 07:00:00,2022,46,7,4,28,True,158
-sample@email.com,Take Algebra assessment 6,480,2022-11-20 18:35:00,2022-11-18 00:00:00,2022,46,8,0,0,False,192
+sample@email.com,Take Algebra assessment 6,480,2022-11-20 18:35:00,2022-11-18 00:00:00,2022,46,8,-1,0,False,192
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-11-21 14:00:00,2022,47,0,16,111,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-11-22 14:00:00,2022,47,1,16,112,True,76
 sample@email.com,Work,240,2022-08-02 18:00:00,2022-11-23 14:00:00,2022,47,2,16,113,True,124
@@ -689,8 +689,8 @@ sample@email.com,Work,240,2022-08-02 18:00:00,2023-01-03 14:00:00,2023,1,1,22,15
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-01-04 14:00:00,2023,1,2,22,155,True,124
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-01-05 14:00:00,2023,1,3,22,156,True,172
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-01-06 14:00:00,2023,1,4,22,157,True,220
-sample@email.com,Go to the gym,9,2023-01-02 12:25:00,2023-01-02 12:16:00,2023,1,5,0,0,False,24
-sample@email.com,Go to the gym,10,2023-01-02 13:29:00,2023-01-02 13:18:00,2023,1,6,0,0,False,26
+sample@email.com,Go to the gym,9,2023-01-02 12:25:00,2023-01-02 12:16:00,2023,1,5,-1,0,False,24
+sample@email.com,Go to the gym,10,2023-01-02 13:29:00,2023-01-02 13:18:00,2023,1,6,-1,0,False,26
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-01-09 14:00:00,2023,2,0,23,160,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-01-10 14:00:00,2023,2,1,23,161,True,76
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-01-11 14:00:00,2023,2,2,23,162,True,124
@@ -698,11 +698,11 @@ sample@email.com,Work,240,2022-08-02 18:00:00,2023-01-12 14:00:00,2023,2,3,23,16
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-01-13 14:00:00,2023,2,4,23,164,True,220
 sample@email.com,Go to the dentist,60,2023-01-11 06:58:00,2023-01-11 10:30:00,2023,2,5,0,0,False,117
 sample@email.com,Enroll at PUC,120,2023-01-12 02:15:00,2023-01-13 08:00:00,2023,2,6,0,1,True,208
-sample@email.com,Go to the gym,10,2023-01-12 19:38:00,2023-01-12 19:27:00,2023,2,7,0,0,False,182
-sample@email.com,Go to the gym,10,2023-01-12 19:50:00,2023-01-12 19:40:00,2023,2,8,0,0,False,183
-sample@email.com,Have lunch,34,2023-01-13 08:34:00,2023-01-11 12:00:00,2023,2,9,0,0,True,120
-sample@email.com,Go to the gym,15,2023-01-13 12:06:00,2023-01-13 11:51:00,2023,2,10,0,0,False,215
-sample@email.com,Get a haircut,30,2023-01-13 17:20:00,2023-01-13 13:30:00,2023,2,11,0,0,False,219
+sample@email.com,Go to the gym,10,2023-01-12 19:38:00,2023-01-12 19:27:00,2023,2,7,-1,0,False,182
+sample@email.com,Go to the gym,10,2023-01-12 19:50:00,2023-01-12 19:40:00,2023,2,8,-1,0,False,183
+sample@email.com,Have lunch,34,2023-01-13 08:34:00,2023-01-11 12:00:00,2023,2,9,-1,0,True,120
+sample@email.com,Go to the gym,15,2023-01-13 12:06:00,2023-01-13 11:51:00,2023,2,10,-1,0,False,215
+sample@email.com,Get a haircut,30,2023-01-13 17:20:00,2023-01-13 13:30:00,2023,2,11,-1,0,False,219
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-01-16 14:00:00,2023,3,0,24,167,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-01-17 14:00:00,2023,3,1,24,168,True,76
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-01-18 14:00:00,2023,3,2,24,169,True,124
@@ -762,8 +762,8 @@ sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-1
 sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-12 17:23:00,2023-03-09 13:00:00,2023,10,12,8,56,True,170
 sample@email.com,Go to music class,60,2023-01-16 06:18:00,2023-03-10 11:00:00,2023,10,13,7,53,True,214
 sample@email.com,Celebrate Isabella's birthday,480,2023-02-27 00:28:00,2023-03-11 13:00:00,2023,10,14,1,12,False,266
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-03-07 11:00:00,2023,10,15,0,0,True,70
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-03-09 11:00:00,2023,10,16,0,0,True,166
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-03-07 11:00:00,2023,10,15,-1,0,True,70
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-03-09 11:00:00,2023,10,16,-1,0,True,166
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-03-13 14:00:00,2023,11,0,32,223,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-03-14 15:00:00,2023,11,1,32,224,True,78
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-03-15 14:00:00,2023,11,2,32,225,True,124
@@ -779,8 +779,8 @@ sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-1
 sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-12 17:23:00,2023-03-14 13:00:00,2023,11,12,9,61,True,74
 sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-12 17:23:00,2023-03-16 13:00:00,2023,11,13,9,63,True,170
 sample@email.com,Go to music class,60,2023-01-16 06:18:00,2023-03-17 11:00:00,2023,11,14,8,60,True,214
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-03-14 11:00:00,2023,11,15,0,0,True,70
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-03-16 11:00:00,2023,11,16,0,0,True,166
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-03-14 11:00:00,2023,11,15,-1,0,True,70
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-03-16 11:00:00,2023,11,16,-1,0,True,166
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-03-20 14:00:00,2023,12,0,33,230,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-03-21 15:00:00,2023,12,1,33,231,True,78
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-03-22 14:00:00,2023,12,2,33,232,True,124
@@ -796,8 +796,8 @@ sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-1
 sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-12 17:23:00,2023-03-23 13:00:00,2023,12,12,10,70,True,170
 sample@email.com,Go to music class,60,2023-01-16 06:18:00,2023-03-24 11:00:00,2023,12,13,9,67,True,214
 sample@email.com,Have imaging exams,79,2023-03-13 09:39:00,2023-03-25 07:10:00,2023,12,14,1,12,False,254
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-03-21 11:00:00,2023,12,15,0,0,True,70
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-03-23 11:00:00,2023,12,16,0,0,True,166
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-03-21 11:00:00,2023,12,15,-1,0,True,70
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-03-23 11:00:00,2023,12,16,-1,0,True,166
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-03-27 14:00:00,2023,13,0,34,237,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-03-28 15:00:00,2023,13,1,34,238,True,78
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-03-29 14:00:00,2023,13,2,34,239,True,124
@@ -812,8 +812,8 @@ sample@email.com,Attend inf1027 - Software Testing and Measurement class,120,202
 sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-12 17:23:00,2023-03-28 13:00:00,2023,13,11,11,75,True,74
 sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-12 17:23:00,2023-03-30 13:00:00,2023,13,12,11,77,True,170
 sample@email.com,Go to driving lesson,300,2023-03-26 20:14:00,2023-04-01 09:40:00,2023,13,13,1,6,False,259
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-03-28 11:00:00,2023,13,14,0,0,True,70
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-03-30 11:00:00,2023,13,15,0,0,True,166
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-03-28 11:00:00,2023,13,14,-1,0,True,70
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-03-30 11:00:00,2023,13,15,-1,0,True,166
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-04-03 14:00:00,2023,14,0,35,244,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-04-04 15:00:00,2023,14,1,35,245,True,78
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-04-05 14:00:00,2023,14,2,35,246,True,124
@@ -828,8 +828,8 @@ sample@email.com,Attend inf1027 - Software Testing and Measurement class,120,202
 sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-12 17:23:00,2023-04-04 13:00:00,2023,14,11,12,82,True,74
 sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-12 17:23:00,2023-04-06 13:00:00,2023,14,12,12,84,True,170
 sample@email.com,Go to Itaipava,480,2023-04-03 13:16:00,2023-04-07 00:00:00,2023,14,13,0,4,True,192
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-04-04 11:00:00,2023,14,14,0,0,True,70
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-04-06 11:00:00,2023,14,15,0,0,True,166
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-04-04 11:00:00,2023,14,14,-1,0,True,70
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-04-06 11:00:00,2023,14,15,-1,0,True,166
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-04-10 14:00:00,2023,15,0,36,251,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-04-11 15:00:00,2023,15,1,36,252,True,78
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-04-12 14:00:00,2023,15,2,36,253,True,124
@@ -844,8 +844,8 @@ sample@email.com,Attend inf1027 - Software Testing and Measurement class,120,202
 sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-12 17:23:00,2023-04-11 13:00:00,2023,15,11,13,89,True,74
 sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-12 17:23:00,2023-04-13 13:00:00,2023,15,12,13,91,True,170
 sample@email.com,Consult the dermatologist,60,2023-04-11 12:32:00,2023-04-14 10:40:00,2023,15,13,0,3,False,213
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-04-11 11:00:00,2023,15,14,0,0,True,70
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-04-13 11:00:00,2023,15,15,0,0,True,166
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-04-11 11:00:00,2023,15,14,-1,0,True,70
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-04-13 11:00:00,2023,15,15,-1,0,True,166
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-04-17 14:00:00,2023,16,0,37,258,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-04-18 15:00:00,2023,16,1,37,259,True,78
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-04-19 14:00:00,2023,16,2,37,260,True,124
@@ -860,8 +860,8 @@ sample@email.com,Attend inf1027 - Software Testing and Measurement class,120,202
 sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-12 17:23:00,2023-04-18 13:00:00,2023,16,11,14,96,True,74
 sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-12 17:23:00,2023-04-20 13:00:00,2023,16,12,14,98,True,170
 sample@email.com,Celebrate birthday,360,2023-04-10 06:16:00,2023-04-21 20:00:00,2023,16,13,1,11,False,232
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-04-18 11:00:00,2023,16,14,0,0,True,70
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-04-20 11:00:00,2023,16,15,0,0,True,166
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-04-18 11:00:00,2023,16,14,-1,0,True,70
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-04-20 11:00:00,2023,16,15,-1,0,True,166
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-04-24 14:00:00,2023,17,0,38,265,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-04-25 15:00:00,2023,17,1,38,266,True,78
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-04-26 14:00:00,2023,17,2,38,267,True,124
@@ -876,8 +876,8 @@ sample@email.com,Attend inf1027 - Software Testing and Measurement class,120,202
 sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-12 17:23:00,2023-04-25 13:00:00,2023,17,11,15,103,True,74
 sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-12 17:23:00,2023-04-27 13:00:00,2023,17,12,15,105,True,170
 sample@email.com,Do a test activity,480,2023-04-23 23:42:00,2023-04-25 00:00:00,2023,17,13,1,2,False,48
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-04-25 11:00:00,2023,17,14,0,0,True,70
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-04-27 11:00:00,2023,17,15,0,0,True,166
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-04-25 11:00:00,2023,17,14,-1,0,True,70
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-04-27 11:00:00,2023,17,15,-1,0,True,166
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-05-01 14:00:00,2023,18,0,39,272,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-05-02 15:00:00,2023,18,1,39,273,True,78
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-05-03 14:00:00,2023,18,2,39,274,True,124
@@ -891,8 +891,8 @@ sample@email.com,Attend inf1027 - Software Testing and Measurement class,120,202
 sample@email.com,Attend inf1027 - Software Testing and Measurement class,120,2023-01-12 17:16:00,2023-05-03 11:00:00,2023,18,10,16,111,True,118
 sample@email.com,Attend INF1403 - Human-Computer Interaction class,105,2023-01-12 17:23:00,2023-05-02 13:00:00,2023,18,11,16,110,True,74
 sample@email.com,Celebrate Felipe's birthday,330,2023-05-07 06:40:00,2023-05-07 12:45:00,2023,18,12,0,0,False,313
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-05-02 11:00:00,2023,18,13,0,0,True,70
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-05-04 11:00:00,2023,18,14,0,0,True,166
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-05-02 11:00:00,2023,18,13,-1,0,True,70
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-05-04 11:00:00,2023,18,14,-1,0,True,166
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-05-08 14:00:00,2023,19,0,40,279,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-05-09 15:00:00,2023,19,1,40,280,True,78
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-05-10 14:00:00,2023,19,2,40,281,True,124
@@ -907,14 +907,14 @@ sample@email.com,See the ophthalmologist,45,2023-05-08 16:28:00,2023-05-13 10:15
 sample@email.com,Go to driving lesson,49,2023-05-08 17:59:00,2023-05-13 12:00:00,2023,19,11,0,5,True,264
 sample@email.com,Celebrate Laura's birthday,300,2023-05-11 16:02:00,2023-05-13 19:00:00,2023,19,12,0,2,False,278
 sample@email.com,Go downtown,180,2023-05-11 22:48:00,2023-05-12 10:00:00,2023,19,13,0,1,False,212
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-05-09 11:00:00,2023,19,14,0,0,True,70
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-05-11 11:00:00,2023,19,15,0,0,True,166
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-05-09 11:00:00,2023,19,14,-1,0,True,70
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-05-11 11:00:00,2023,19,15,-1,0,True,166
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-05-15 14:00:00,2023,20,0,41,286,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-05-17 14:00:00,2023,20,1,41,288,True,124
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-05-19 14:00:00,2023,20,2,41,290,True,220
 sample@email.com,Attend inf1027 - Software Testing and Measurement class,120,2023-01-12 17:16:00,2023-05-15 11:00:00,2023,20,3,18,123,True,22
 sample@email.com,Attend inf1027 - Software Testing and Measurement class,120,2023-01-12 17:16:00,2023-05-17 11:00:00,2023,20,4,18,125,True,118
-sample@email.com,Stay focused,120,2023-05-16 00:01:00,2023-05-15 09:00:00,2023,20,5,0,0,False,18
+sample@email.com,Stay focused,120,2023-05-16 00:01:00,2023-05-15 09:00:00,2023,20,5,-1,0,False,18
 sample@email.com,Go to the gym,60,2023-05-16 00:03:00,2023-05-16 19:30:00,2023,20,6,0,0,True,87
 sample@email.com,Go to the gym,60,2023-05-16 00:03:00,2023-05-17 19:30:00,2023,20,7,0,1,True,135
 sample@email.com,Go to the gym,60,2023-05-16 00:03:00,2023-05-18 19:30:00,2023,20,8,0,2,True,183
@@ -925,12 +925,12 @@ sample@email.com,Attend INF1403 - Human-Computer Interaction class,120,2023-05-1
 sample@email.com,Work,240,2023-05-16 00:12:00,2023-05-16 15:00:00,2023,20,13,0,0,True,78
 sample@email.com,Work,240,2023-05-16 00:12:00,2023-05-18 15:00:00,2023,20,14,0,2,True,174
 sample@email.com,Attend talk at PUC,60,2023-05-17 16:48:00,2023-05-19 11:30:00,2023,20,15,0,2,False,215
-sample@email.com,Take Operating Systems exam 1,120,2023-05-17 17:12:00,2023-05-16 11:00:00,2023,20,16,0,0,False,70
-sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-05-16 11:00:00,2023,20,17,0,0,True,70
+sample@email.com,Take Operating Systems exam 1,120,2023-05-17 17:12:00,2023-05-16 11:00:00,2023,20,16,-1,0,False,70
+sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-05-16 11:00:00,2023,20,17,-1,0,True,70
 sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-05-18 11:00:00,2023,20,18,0,1,True,166
-sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-05-17 07:15:00,2023,20,19,0,0,True,110
-sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-05-16 07:10:00,2023,20,20,0,0,True,62
-sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-05-18 07:10:00,2023,20,21,0,0,True,158
+sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-05-17 07:15:00,2023,20,19,-1,0,True,110
+sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-05-16 07:10:00,2023,20,20,-1,0,True,62
+sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-05-18 07:10:00,2023,20,21,-1,0,True,158
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-05-22 14:00:00,2023,21,0,42,293,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-05-24 14:00:00,2023,21,1,42,295,True,124
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-05-26 14:00:00,2023,21,2,42,297,True,220
@@ -951,10 +951,10 @@ sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:0
 sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-05-25 11:00:00,2023,21,17,1,8,True,166
 sample@email.com,Celebrate Aninha's birthday,60,2023-05-24 09:06:00,2023-05-27 12:00:00,2023,21,18,0,3,False,264
 sample@email.com,Celebrate Rapha's birthday,270,2023-05-24 09:07:00,2023-05-27 13:30:00,2023,21,19,0,3,False,267
-sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-05-22 07:15:00,2023,21,20,0,0,True,14
-sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-05-24 07:15:00,2023,21,21,0,0,True,110
-sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-05-23 07:10:00,2023,21,22,0,0,True,62
-sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-05-25 07:10:00,2023,21,23,0,0,True,158
+sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-05-22 07:15:00,2023,21,20,-1,0,True,14
+sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-05-24 07:15:00,2023,21,21,-1,0,True,110
+sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-05-23 07:10:00,2023,21,22,-1,0,True,62
+sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-05-25 07:10:00,2023,21,23,-1,0,True,158
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-05-29 14:00:00,2023,22,0,43,300,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-05-31 14:00:00,2023,22,1,43,302,True,124
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-06-02 14:00:00,2023,22,2,43,304,True,220
@@ -971,10 +971,10 @@ sample@email.com,Work,240,2023-05-16 00:12:00,2023-05-30 15:00:00,2023,22,12,2,1
 sample@email.com,Work,240,2023-05-16 00:12:00,2023-06-01 15:00:00,2023,22,13,2,16,True,174
 sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-05-30 11:00:00,2023,22,14,2,13,True,70
 sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-06-01 11:00:00,2023,22,15,2,15,True,166
-sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-05-29 07:15:00,2023,22,16,0,0,True,14
-sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-05-31 07:15:00,2023,22,17,0,0,True,110
-sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-05-30 07:10:00,2023,22,18,0,0,True,62
-sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-06-01 07:10:00,2023,22,19,0,0,True,158
+sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-05-29 07:15:00,2023,22,16,-1,0,True,14
+sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-05-31 07:15:00,2023,22,17,-1,0,True,110
+sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-05-30 07:10:00,2023,22,18,-1,0,True,62
+sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-06-01 07:10:00,2023,22,19,-1,0,True,158
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-06-05 14:00:00,2023,23,0,44,307,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-06-07 14:00:00,2023,23,1,44,309,True,124
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-06-09 14:00:00,2023,23,2,44,311,True,220
@@ -996,10 +996,10 @@ sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:0
 sample@email.com,Take the practical driving test,360,2023-06-04 18:13:00,2023-06-05 03:00:00,2023,23,18,1,1,False,6
 sample@email.com,Take database test 1,120,2023-06-05 19:57:00,2023-06-06 17:00:00,2023,23,19,0,1,False,82
 sample@email.com,Go to Itaipava,480,2023-06-07 20:41:00,2023-06-08 00:00:00,2023,23,20,0,1,True,144
-sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-06-05 07:15:00,2023,23,21,0,0,True,14
-sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-06-07 07:15:00,2023,23,22,0,0,True,110
-sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-06-06 07:10:00,2023,23,23,0,0,True,62
-sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-06-08 07:10:00,2023,23,24,0,0,True,158
+sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-06-05 07:15:00,2023,23,21,-1,0,True,14
+sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-06-07 07:15:00,2023,23,22,-1,0,True,110
+sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-06-06 07:10:00,2023,23,23,-1,0,True,62
+sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-06-08 07:10:00,2023,23,24,-1,0,True,158
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-06-12 14:00:00,2023,24,0,45,314,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-06-14 14:00:00,2023,24,1,45,316,True,124
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-06-16 14:00:00,2023,24,2,45,318,True,220
@@ -1016,10 +1016,10 @@ sample@email.com,Work,240,2023-05-16 00:12:00,2023-06-13 15:00:00,2023,24,12,4,2
 sample@email.com,Work,240,2023-05-16 00:12:00,2023-06-15 15:00:00,2023,24,13,4,30,True,174
 sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-06-13 11:00:00,2023,24,14,4,27,True,70
 sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-06-15 11:00:00,2023,24,15,4,29,True,166
-sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-06-12 07:15:00,2023,24,16,0,0,True,14
-sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-06-14 07:15:00,2023,24,17,0,0,True,110
-sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-06-13 07:10:00,2023,24,18,0,0,True,62
-sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-06-15 07:10:00,2023,24,19,0,0,True,158
+sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-06-12 07:15:00,2023,24,16,-1,0,True,14
+sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-06-14 07:15:00,2023,24,17,-1,0,True,110
+sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-06-13 07:10:00,2023,24,18,-1,0,True,62
+sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-06-15 07:10:00,2023,24,19,-1,0,True,158
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-06-19 14:00:00,2023,25,0,46,321,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-06-21 14:00:00,2023,25,1,46,323,True,124
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-06-23 14:00:00,2023,25,2,46,325,True,220
@@ -1040,10 +1040,10 @@ sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:0
 sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:00,2023-06-22 11:00:00,2023,25,17,5,36,True,166
 sample@email.com,Go to psychiatrist appointment,90,2023-06-18 15:50:00,2023-06-24 14:00:00,2023,25,18,1,6,False,268
 sample@email.com,Take Software Testing and Measurement Exam 2,120,2023-06-20 22:51:00,2023-06-21 11:00:00,2023,25,19,0,1,False,118
-sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-06-19 07:15:00,2023,25,20,0,0,True,14
-sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-06-21 07:15:00,2023,25,21,0,0,True,110
-sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-06-20 07:10:00,2023,25,22,0,0,True,62
-sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-06-22 07:10:00,2023,25,23,0,0,True,158
+sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-06-19 07:15:00,2023,25,20,-1,0,True,14
+sample@email.com,Attend inf1636 - Object-Oriented Programming class,90,2023-06-27 16:44:00,2023-06-21 07:15:00,2023,25,21,-1,0,True,110
+sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-06-20 07:10:00,2023,25,22,-1,0,True,62
+sample@email.com,Take database test 2,100,2023-06-27 16:46:00,2023-06-22 07:10:00,2023,25,23,-1,0,True,158
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-06-26 14:00:00,2023,26,0,47,328,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-06-28 14:00:00,2023,26,1,47,330,True,124
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-06-30 14:00:00,2023,26,2,47,332,True,220
@@ -1062,7 +1062,7 @@ sample@email.com,Attend INF1316 - Operating Systems class,120,2023-05-17 17:12:0
 sample@email.com,Present Object-Oriented Programming project,40,2023-06-27 16:44:00,2023-06-28 08:20:00,2023,26,15,0,1,False,112
 sample@email.com,Take database test 2,120,2023-06-27 16:47:00,2023-06-29 07:00:00,2023,26,16,0,2,False,158
 sample@email.com,Take Operating Systems exam 2,120,2023-06-27 16:48:00,2023-06-29 11:00:00,2023,26,17,0,2,False,166
-sample@email.com,Play footvolley,60,2023-06-30 17:18:00,2023-06-30 08:00:00,2023,26,18,0,0,True,208
+sample@email.com,Play footvolley,60,2023-06-30 17:18:00,2023-06-30 08:00:00,2023,26,18,-1,0,True,208
 sample@email.com,Take girlfriend to the ballet,60,2023-07-01 01:43:00,2023-07-01 12:30:00,2023,26,19,0,0,False,265
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-07-03 14:00:00,2023,27,0,48,335,True,28
 sample@email.com,Work,240,2022-08-02 18:00:00,2023-07-05 14:00:00,2023,27,1,48,337,True,124
@@ -1105,11 +1105,11 @@ sample@email.com,Play footvolley,60,2023-06-30 17:18:00,2023-07-17 08:00:00,2023
 sample@email.com,Play footvolley,60,2023-06-30 17:18:00,2023-07-19 08:00:00,2023,29,8,3,19,True,112
 sample@email.com,Play footvolley,60,2023-06-30 17:18:00,2023-07-21 08:00:00,2023,29,9,3,21,True,208
 sample@email.com,Play footvolley,60,2023-07-18 07:21:00,2023-07-18 08:00:00,2023,29,10,0,0,True,64
-sample@email.com,Work,240,2023-07-19 17:05:00,2023-07-19 14:00:00,2023,29,11,0,0,True,124
-sample@email.com,Work,240,2023-07-19 17:05:00,2023-07-19 14:00:00,2023,29,12,0,0,True,124
+sample@email.com,Work,240,2023-07-19 17:05:00,2023-07-19 14:00:00,2023,29,11,-1,0,True,124
+sample@email.com,Work,240,2023-07-19 17:05:00,2023-07-19 14:00:00,2023,29,12,-1,0,True,124
 sample@email.com,Work,240,2023-07-19 17:05:00,2023-07-20 14:00:00,2023,29,13,0,1,True,172
 sample@email.com,Work,240,2023-07-19 17:05:00,2023-07-21 14:00:00,2023,29,14,0,2,True,220
-sample@email.com,Work,240,2023-07-19 17:06:00,2023-07-18 14:00:00,2023,29,15,0,0,True,76
+sample@email.com,Work,240,2023-07-19 17:06:00,2023-07-18 14:00:00,2023,29,15,-1,0,True,76
 sample@email.com,Go to the gym,60,2023-05-16 00:03:00,2023-07-24 19:30:00,2023,30,0,10,69,True,39
 sample@email.com,Go to the gym,60,2023-05-16 00:03:00,2023-07-25 19:30:00,2023,30,1,10,70,True,87
 sample@email.com,Go to the gym,60,2023-05-16 00:03:00,2023-07-26 19:30:00,2023,30,2,10,71,True,135
@@ -1170,7 +1170,7 @@ sample@email.com,Attend cre1141 - Christian Ethics class,120,2023-07-27 11:50:00
 sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2023-08-07 14:52:00,2023-08-14 11:00:00,2023,33,19,1,7,True,22
 sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2023-08-15 23:12:00,2023-08-16 11:00:00,2023,33,20,0,1,True,118
 sample@email.com,Work,120,2023-08-16 23:56:00,2023-08-17 09:00:00,2023,33,21,0,1,True,162
-sample@email.com,Attend inf1032 - Data Science class,120,2023-08-21 10:21:00,2023-08-14 07:00:00,2023,33,22,0,0,False,14
+sample@email.com,Attend inf1032 - Data Science class,120,2023-08-21 10:21:00,2023-08-14 07:00:00,2023,33,22,-1,0,False,14
 sample@email.com,Work,240,2023-07-19 17:05:00,2023-08-21 14:00:00,2023,34,0,5,33,True,28
 sample@email.com,Work,120,2023-07-19 17:05:00,2023-08-22 17:00:00,2023,34,1,5,34,True,82
 sample@email.com,Work,240,2023-07-19 17:05:00,2023-08-23 14:00:00,2023,34,2,5,35,True,124
@@ -1187,14 +1187,14 @@ sample@email.com,Work,120,2023-08-16 23:56:00,2023-08-22 09:00:00,2023,34,12,1,6
 sample@email.com,Work,120,2023-08-16 23:56:00,2023-08-24 09:00:00,2023,34,13,1,8,True,162
 sample@email.com,Work,120,2023-08-16 23:56:00,2023-08-24 11:30:00,2023,34,14,1,8,False,167
 sample@email.com,Participate in the mapping,120,2023-08-20 15:37:00,2023-08-23 11:00:00,2023,34,15,1,3,True,118
-sample@email.com,Attend inf1032 - Data Science class,100,2023-08-21 10:23:00,2023-08-21 07:20:00,2023,34,16,0,0,True,14
+sample@email.com,Attend inf1032 - Data Science class,100,2023-08-21 10:23:00,2023-08-21 07:20:00,2023,34,16,-1,0,True,14
 sample@email.com,Attend inf1032 - Data Science class,100,2023-08-21 10:23:00,2023-08-23 07:20:00,2023,34,17,0,2,True,110
-sample@email.com,Go to the gym,60,2023-08-23 07:46:00,2023-08-21 19:30:00,2023,34,18,0,0,True,39
-sample@email.com,Go to the gym,60,2023-08-23 07:46:00,2023-08-22 19:30:00,2023,34,19,0,0,True,87
+sample@email.com,Go to the gym,60,2023-08-23 07:46:00,2023-08-21 19:30:00,2023,34,18,-1,0,True,39
+sample@email.com,Go to the gym,60,2023-08-23 07:46:00,2023-08-22 19:30:00,2023,34,19,-1,0,True,87
 sample@email.com,Go to the gym,60,2023-08-23 07:46:00,2023-08-24 19:30:00,2023,34,20,0,1,True,183
 sample@email.com,Go to the gym,60,2023-08-23 07:48:00,2023-08-23 18:30:00,2023,34,21,0,0,True,133
 sample@email.com,Go to the gym,60,2023-08-23 07:48:00,2023-08-25 18:30:00,2023,34,22,0,2,True,229
-sample@email.com,Attend Systems Design and Construction class,120,2023-08-24 15:33:00,2023-08-24 15:00:00,2023,34,23,0,0,True,174
+sample@email.com,Attend Systems Design and Construction class,120,2023-08-24 15:33:00,2023-08-24 15:00:00,2023,34,23,-1,0,True,174
 sample@email.com,Attend cre1141 - Christian Ethics class,120,2023-08-25 08:23:00,2023-08-25 09:00:00,2023,34,24,0,0,True,210
 sample@email.com,Work,240,2023-07-19 17:05:00,2023-08-28 14:00:00,2023,35,0,6,40,True,28
 sample@email.com,Work,120,2023-07-19 17:05:00,2023-08-29 17:00:00,2023,35,1,6,41,True,82
@@ -1280,8 +1280,8 @@ sample@email.com,Go to the gym,60,2023-09-12 01:17:00,2023-09-21 17:30:00,2023,3
 sample@email.com,Go to the gym,60,2023-09-12 01:17:00,2023-09-21 19:00:00,2023,38,17,1,9,True,182
 sample@email.com,Work,360,2023-09-20 11:11:00,2023-09-20 12:00:00,2023,38,18,0,0,True,120
 sample@email.com,Work,240,2023-09-20 11:12:00,2023-09-22 14:00:00,2023,38,19,0,2,True,220
-sample@email.com,Attend cre1141 - Christian Ethics class,120,2023-09-22 09:19:00,2023-09-22 09:00:00,2023,38,20,0,0,True,210
-sample@email.com,Go to the gym,60,2024-01-08 22:31:00,2023-09-19 14:30:00,2023,38,21,0,0,True,77
+sample@email.com,Attend cre1141 - Christian Ethics class,120,2023-09-22 09:19:00,2023-09-22 09:00:00,2023,38,20,-1,0,True,210
+sample@email.com,Go to the gym,60,2024-01-08 22:31:00,2023-09-19 14:30:00,2023,38,21,-1,0,True,77
 sample@email.com,Attend INF1640 - Computer Networks class,120,2023-07-27 11:29:00,2023-09-26 11:00:00,2023,39,0,9,61,True,70
 sample@email.com,Attend inf1631 - Discrete Structures class,120,2023-07-27 11:29:00,2023-09-26 13:00:00,2023,39,1,9,61,True,74
 sample@email.com,Attend INF1640 - Computer Networks class,120,2023-07-27 11:29:00,2023-09-28 11:00:00,2023,39,2,9,63,True,166
@@ -1379,7 +1379,7 @@ sample@email.com,Work,360,2023-09-20 11:11:00,2023-10-25 12:00:00,2023,43,12,5,3
 sample@email.com,Work,240,2023-09-20 11:12:00,2023-10-27 14:00:00,2023,43,13,5,37,True,220
 sample@email.com,Attend cre1141 - Christian Ethics class,120,2023-09-22 09:19:00,2023-10-27 09:00:00,2023,43,14,5,35,True,210
 sample@email.com,Travel to Secretário,480,2023-10-22 19:20:00,2023-10-27 00:00:00,2023,43,15,1,5,False,192
-sample@email.com,Go to the gym,60,2023-10-25 09:43:00,2023-10-23 18:30:00,2023,43,16,0,0,True,37
+sample@email.com,Go to the gym,60,2023-10-25 09:43:00,2023-10-23 18:30:00,2023,43,16,-1,0,True,37
 sample@email.com,Go to the gym,60,2023-10-25 09:43:00,2023-10-25 18:30:00,2023,43,17,0,0,True,133
 sample@email.com,Go to the gym,60,2023-10-25 09:43:00,2023-10-27 18:30:00,2023,43,18,0,2,True,229
 sample@email.com,Work,120,2023-10-25 11:19:00,2023-10-26 15:00:00,2023,43,19,0,1,True,174
@@ -1435,8 +1435,8 @@ sample@email.com,Go to the gym,60,2023-10-25 09:43:00,2023-11-15 18:30:00,2023,4
 sample@email.com,Go to the gym,60,2023-10-25 09:43:00,2023-11-17 18:30:00,2023,46,13,3,23,True,229
 sample@email.com,Attend inf1032 - Data Science class,100,2023-11-06 20:28:00,2023-11-13 07:20:00,2023,46,14,1,7,True,14
 sample@email.com,Attend inf1032 - Data Science class,100,2023-11-06 20:28:00,2023-11-15 07:20:00,2023,46,15,1,9,True,110
-sample@email.com,Work,120,2023-11-21 23:48:00,2023-11-14 15:00:00,2023,46,16,0,0,True,78
-sample@email.com,Work,120,2023-11-21 23:48:00,2023-11-16 15:00:00,2023,46,17,0,0,True,174
+sample@email.com,Work,120,2023-11-21 23:48:00,2023-11-14 15:00:00,2023,46,16,-1,0,True,78
+sample@email.com,Work,120,2023-11-21 23:48:00,2023-11-16 15:00:00,2023,46,17,-1,0,True,174
 sample@email.com,Attend INF1640 - Computer Networks class,120,2023-07-27 11:29:00,2023-11-21 11:00:00,2023,47,0,17,117,True,70
 sample@email.com,Attend inf1631 - Discrete Structures class,120,2023-07-27 11:29:00,2023-11-21 13:00:00,2023,47,1,17,117,True,74
 sample@email.com,Attend INF1640 - Computer Networks class,120,2023-07-27 11:29:00,2023-11-23 11:00:00,2023,47,2,17,119,True,166
@@ -1452,11 +1452,11 @@ sample@email.com,Go to the gym,60,2023-10-25 09:43:00,2023-11-22 18:30:00,2023,4
 sample@email.com,Go to the gym,60,2023-10-25 09:43:00,2023-11-24 18:30:00,2023,47,12,4,30,True,229
 sample@email.com,Attend inf1032 - Data Science class,100,2023-11-06 20:28:00,2023-11-20 07:20:00,2023,47,13,2,14,True,14
 sample@email.com,Attend inf1032 - Data Science class,100,2023-11-06 20:28:00,2023-11-22 07:20:00,2023,47,14,2,16,True,110
-sample@email.com,Work,120,2023-11-21 23:48:00,2023-11-21 15:00:00,2023,47,15,0,0,True,78
+sample@email.com,Work,120,2023-11-21 23:48:00,2023-11-21 15:00:00,2023,47,15,-1,0,True,78
 sample@email.com,Work,120,2023-11-21 23:48:00,2023-11-23 15:00:00,2023,47,16,0,2,True,174
 sample@email.com,Watch Os Barbixas,120,2023-11-23 00:54:00,2023-11-23 21:00:00,2023,47,17,0,0,False,186
-sample@email.com,Work,360,2023-12-11 00:29:00,2023-11-20 12:00:00,2023,47,18,0,0,True,24
-sample@email.com,Work,360,2023-12-11 00:29:00,2023-11-22 12:00:00,2023,47,19,0,0,True,120
+sample@email.com,Work,360,2023-12-11 00:29:00,2023-11-20 12:00:00,2023,47,18,-1,0,True,24
+sample@email.com,Work,360,2023-12-11 00:29:00,2023-11-22 12:00:00,2023,47,19,-1,0,True,120
 sample@email.com,Attend INF1640 - Computer Networks class,120,2023-07-27 11:29:00,2023-11-28 11:00:00,2023,48,0,18,124,True,70
 sample@email.com,Attend inf1631 - Discrete Structures class,120,2023-07-27 11:29:00,2023-11-28 13:00:00,2023,48,1,18,124,True,74
 sample@email.com,Attend Systems Design and Construction class,120,2023-08-24 15:33:00,2023-11-28 15:00:00,2023,48,2,14,96,True,78
@@ -1473,9 +1473,9 @@ sample@email.com,Attend inf1032 - Data Science class,100,2023-11-06 20:28:00,202
 sample@email.com,Go to the DMV,60,2023-11-21 23:04:00,2023-12-01 18:12:00,2023,48,13,1,10,False,228
 sample@email.com,Work,120,2023-11-21 23:48:00,2023-11-28 15:00:00,2023,48,14,1,7,True,78
 sample@email.com,Work,120,2023-11-21 23:48:00,2023-11-30 15:00:00,2023,48,15,1,9,True,174
-sample@email.com,Work,480,2023-12-11 00:29:00,2023-11-27 09:00:00,2023,48,16,0,0,True,18
-sample@email.com,Work,360,2023-12-11 00:29:00,2023-11-27 12:00:00,2023,48,17,0,0,True,24
-sample@email.com,Work,360,2023-12-11 00:29:00,2023-11-29 12:00:00,2023,48,18,0,0,True,120
+sample@email.com,Work,480,2023-12-11 00:29:00,2023-11-27 09:00:00,2023,48,16,-1,0,True,18
+sample@email.com,Work,360,2023-12-11 00:29:00,2023-11-27 12:00:00,2023,48,17,-1,0,True,24
+sample@email.com,Work,360,2023-12-11 00:29:00,2023-11-29 12:00:00,2023,48,18,-1,0,True,120
 sample@email.com,Go to the gym,60,2023-09-12 01:17:00,2023-12-05 17:30:00,2023,49,0,12,84,True,83
 sample@email.com,Go to the gym,60,2023-09-12 01:17:00,2023-12-07 10:30:00,2023,49,1,12,86,False,165
 sample@email.com,Go to the gym,60,2023-09-12 01:17:00,2023-12-07 17:30:00,2023,49,2,12,86,True,179
@@ -1485,8 +1485,8 @@ sample@email.com,Work,120,2023-11-21 23:48:00,2023-12-05 15:00:00,2023,49,5,2,14
 sample@email.com,Work,120,2023-11-21 23:48:00,2023-12-07 15:00:00,2023,49,6,2,16,True,174
 sample@email.com,Go to the gym,60,2023-12-07 02:21:00,2023-12-08 10:00:00,2023,49,7,0,1,False,212
 sample@email.com,Go to the gym,60,2023-12-07 02:21:00,2023-12-08 18:30:00,2023,49,8,0,1,True,229
-sample@email.com,Work,360,2023-12-11 00:29:00,2023-12-04 12:00:00,2023,49,9,0,0,True,24
-sample@email.com,Work,360,2023-12-11 00:29:00,2023-12-06 12:00:00,2023,49,10,0,0,True,120
+sample@email.com,Work,360,2023-12-11 00:29:00,2023-12-04 12:00:00,2023,49,9,-1,0,True,24
+sample@email.com,Work,360,2023-12-11 00:29:00,2023-12-06 12:00:00,2023,49,10,-1,0,True,120
 sample@email.com,Go to the gym,60,2023-09-12 01:17:00,2023-12-12 17:30:00,2023,50,0,13,91,True,83
 sample@email.com,Go to the gym,60,2023-09-12 01:17:00,2023-12-14 17:30:00,2023,50,1,13,93,True,179
 sample@email.com,Work,240,2023-09-20 11:12:00,2023-12-15 14:00:00,2023,50,2,12,86,True,220
@@ -1544,12 +1544,12 @@ sample@email.com,Get a haircut,60,2024-01-18 10:23:00,2024-01-18 11:00:00,2024,3
 sample@email.com,Take a singing class,60,2023-12-28 17:01:00,2024-01-24 18:00:00,2024,4,0,4,27,True,132
 sample@email.com,Take a guitar class,60,2023-12-28 17:01:00,2024-01-24 19:00:00,2024,4,1,4,27,True,134
 sample@email.com,Enroll at PUC,120,2024-01-22 03:04:00,2024-01-22 08:00:00,2024,4,2,0,0,True,16
-sample@email.com,Work,240,2024-01-23 00:37:00,2024-01-22 14:00:00,2024,4,3,0,0,True,28
+sample@email.com,Work,240,2024-01-23 00:37:00,2024-01-22 14:00:00,2024,4,3,-1,0,True,28
 sample@email.com,Work,240,2024-01-23 00:37:00,2024-01-23 14:00:00,2024,4,4,0,0,True,76
 sample@email.com,Work,240,2024-01-23 00:37:00,2024-01-24 14:00:00,2024,4,5,0,1,True,124
 sample@email.com,Work,240,2024-01-23 00:37:00,2024-01-25 14:00:00,2024,4,6,0,2,True,172
 sample@email.com,Work,240,2024-01-23 00:37:00,2024-01-26 14:00:00,2024,4,7,0,3,True,220
-sample@email.com,Go to the gym,60,2024-01-23 00:38:00,2024-01-22 18:45:00,2024,4,8,0,0,True,37
+sample@email.com,Go to the gym,60,2024-01-23 00:38:00,2024-01-22 18:45:00,2024,4,8,-1,0,True,37
 sample@email.com,Go to the gym,60,2024-01-23 00:38:00,2024-01-23 18:45:00,2024,4,9,0,0,True,85
 sample@email.com,Go to the gym,60,2024-01-23 00:38:00,2024-01-24 18:45:00,2024,4,10,0,1,True,133
 sample@email.com,Go to the gym,60,2024-01-23 00:38:00,2024-01-25 18:45:00,2024,4,11,0,2,True,181
@@ -1635,7 +1635,7 @@ sample@email.com,Work,180,2024-03-01 12:53:00,2024-03-05 15:00:00,2024,10,13,1,4
 sample@email.com,Work,180,2024-03-01 12:53:00,2024-03-05 15:00:00,2024,10,14,1,4,True,78
 sample@email.com,Work,180,2024-03-03 22:55:00,2024-03-04 15:00:00,2024,10,15,1,1,True,30
 sample@email.com,Game development class,120,2024-03-06 04:39:00,2024-03-06 09:00:00,2024,10,16,0,0,True,114
-sample@email.com,Work,180,2024-03-07 01:18:00,2024-03-06 15:00:00,2024,10,17,0,0,True,126
+sample@email.com,Work,180,2024-03-07 01:18:00,2024-03-06 15:00:00,2024,10,17,-1,0,True,126
 sample@email.com,Work,240,2024-03-07 01:18:00,2024-03-07 14:00:00,2024,10,18,0,0,True,172
 sample@email.com,Work,180,2024-03-07 01:18:00,2024-03-07 15:00:00,2024,10,19,0,0,True,174
 sample@email.com,Celebrate Caroli's birthday,150,2024-03-07 16:39:00,2024-03-07 19:30:00,2024,10,20,0,0,False,183
@@ -1729,7 +1729,7 @@ sample@email.com,Work,180,2024-03-09 17:35:00,2024-04-09 15:00:00,2024,15,12,5,3
 sample@email.com,Work,180,2024-03-09 17:35:00,2024-04-10 15:00:00,2024,15,13,5,32,True,126
 sample@email.com,Work,240,2024-03-09 17:36:00,2024-04-11 14:00:00,2024,15,14,5,33,True,172
 sample@email.com,Celebrate Bernardo's birthday,330,2024-04-04 23:15:00,2024-04-14 19:00:00,2024,15,15,1,10,False,326
-sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-04-09 11:56:00,2024-04-09 11:00:00,2024,15,16,0,0,True,70
+sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-04-09 11:56:00,2024-04-09 11:00:00,2024,15,16,-1,0,True,70
 sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-04-09 11:56:00,2024-04-11 11:00:00,2024,15,17,0,2,True,166
 sample@email.com,Attend INF1771 - Artificial Intelligence class,120,2024-01-21 18:18:00,2024-04-15 13:00:00,2024,16,0,13,85,True,26
 sample@email.com,Attend INF1771 - Artificial Intelligence class,120,2024-01-21 18:18:00,2024-04-17 13:00:00,2024,16,1,13,87,True,122
@@ -1748,7 +1748,7 @@ sample@email.com,Work,180,2024-03-09 17:35:00,2024-04-17 15:00:00,2024,16,13,6,3
 sample@email.com,Work,240,2024-03-09 17:36:00,2024-04-18 14:00:00,2024,16,14,6,40,True,172
 sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-04-09 11:56:00,2024-04-16 11:00:00,2024,16,15,1,7,True,70
 sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-04-09 11:56:00,2024-04-18 11:00:00,2024,16,16,1,9,True,166
-sample@email.com,Do Muay Thai,60,2024-04-19 21:42:00,2024-04-19 19:00:00,2024,16,17,0,0,True,230
+sample@email.com,Do Muay Thai,60,2024-04-19 21:42:00,2024-04-19 19:00:00,2024,16,17,-1,0,True,230
 sample@email.com,Game development class,120,2024-03-06 04:39:00,2024-04-22 09:00:00,2024,17,0,7,47,True,18
 sample@email.com,Game development class,120,2024-03-06 04:39:00,2024-04-24 09:00:00,2024,17,1,7,49,True,114
 sample@email.com,Attend INF1338 class - Large Language Models,120,2024-03-07 03:20:00,2024-04-23 13:00:00,2024,17,2,7,47,True,74
@@ -1869,7 +1869,7 @@ sample@email.com,Go to the gym,60,2024-04-25 11:20:00,2024-05-30 08:00:00,2024,2
 sample@email.com,Go to the gym,60,2024-04-25 11:20:00,2024-05-31 08:00:00,2024,22,18,5,36,True,208
 sample@email.com,Go to psychologist appointment,60,2024-05-02 21:48:00,2024-05-31 11:00:00,2024,22,19,4,29,True,214
 sample@email.com,Get a haircut,30,2024-05-29 19:23:00,2024-05-30 14:00:00,2024,22,20,0,1,False,172
-sample@email.com,Go to the party on the long weekend Saturday,60,2024-06-01 22:51:00,2024-06-01 21:00:00,2024,22,21,0,0,False,282
+sample@email.com,Go to the party on the long weekend Saturday,60,2024-06-01 22:51:00,2024-06-01 21:00:00,2024,22,21,-1,0,False,282
 sample@email.com,Game development class,120,2024-03-06 04:39:00,2024-06-03 09:00:00,2024,23,0,13,89,True,18
 sample@email.com,Game development class,120,2024-03-06 04:39:00,2024-06-05 09:00:00,2024,23,1,13,91,True,114
 sample@email.com,Attend INF1338 class - Large Language Models,120,2024-03-07 03:20:00,2024-06-04 13:00:00,2024,23,2,13,89,True,74
@@ -1889,8 +1889,8 @@ sample@email.com,Go to the gym,60,2024-04-25 11:20:00,2024-06-05 08:00:00,2024,2
 sample@email.com,Go to the gym,60,2024-04-25 11:20:00,2024-06-06 08:00:00,2024,23,16,6,42,True,160
 sample@email.com,Go to the gym,60,2024-04-25 11:20:00,2024-06-07 08:00:00,2024,23,17,6,43,True,208
 sample@email.com,Go to psychologist appointment,60,2024-05-02 21:48:00,2024-06-07 11:00:00,2024,23,18,5,36,True,214
-sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-06-20 12:29:00,2024-06-04 11:00:00,2024,23,19,0,0,True,70
-sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-06-20 12:29:00,2024-06-06 11:00:00,2024,23,20,0,0,True,166
+sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-06-20 12:29:00,2024-06-04 11:00:00,2024,23,19,-1,0,True,70
+sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-06-20 12:29:00,2024-06-06 11:00:00,2024,23,20,-1,0,True,166
 sample@email.com,Game development class,120,2024-03-06 04:39:00,2024-06-10 09:00:00,2024,24,0,14,96,True,18
 sample@email.com,Game development class,120,2024-03-06 04:39:00,2024-06-12 09:00:00,2024,24,1,14,98,True,114
 sample@email.com,Attend INF1338 class - Large Language Models,120,2024-03-07 03:20:00,2024-06-11 13:00:00,2024,24,2,14,96,True,74
@@ -1911,8 +1911,8 @@ sample@email.com,Go to the gym,60,2024-04-25 11:20:00,2024-06-13 08:00:00,2024,2
 sample@email.com,Go to the gym,60,2024-04-25 11:20:00,2024-06-14 08:00:00,2024,24,17,7,50,True,208
 sample@email.com,Go to psychologist appointment,60,2024-05-02 21:48:00,2024-06-14 11:00:00,2024,24,18,6,43,True,214
 sample@email.com,Go to psychologist appointment,60,2024-06-07 10:41:00,2024-06-10 19:00:00,2024,24,19,1,3,True,38
-sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-06-20 12:29:00,2024-06-11 11:00:00,2024,24,20,0,0,True,70
-sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-06-20 12:29:00,2024-06-13 11:00:00,2024,24,21,0,0,True,166
+sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-06-20 12:29:00,2024-06-11 11:00:00,2024,24,20,-1,0,True,70
+sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-06-20 12:29:00,2024-06-13 11:00:00,2024,24,21,-1,0,True,166
 sample@email.com,Game development class,120,2024-03-06 04:39:00,2024-06-17 09:00:00,2024,25,0,15,103,True,18
 sample@email.com,Game development class,120,2024-03-06 04:39:00,2024-06-19 09:00:00,2024,25,1,15,105,True,114
 sample@email.com,Attend INF1338 class - Large Language Models,120,2024-03-07 03:20:00,2024-06-18 13:00:00,2024,25,2,15,103,True,74
@@ -1931,8 +1931,8 @@ sample@email.com,Go to the gym,60,2024-04-25 11:20:00,2024-06-19 08:00:00,2024,2
 sample@email.com,Go to the gym,60,2024-04-25 11:20:00,2024-06-20 08:00:00,2024,25,15,8,56,True,160
 sample@email.com,Go to the gym,60,2024-04-25 11:20:00,2024-06-21 08:00:00,2024,25,16,8,57,True,208
 sample@email.com,Go to psychologist appointment,60,2024-05-02 21:48:00,2024-06-21 11:00:00,2024,25,17,7,50,True,214
-sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-06-20 12:29:00,2024-06-18 11:00:00,2024,25,18,0,0,True,70
-sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-06-20 12:29:00,2024-06-20 11:00:00,2024,25,19,0,0,True,166
+sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-06-20 12:29:00,2024-06-18 11:00:00,2024,25,18,-1,0,True,70
+sample@email.com,Attend INF1010 - Advanced Data Structures class,120,2024-06-20 12:29:00,2024-06-20 11:00:00,2024,25,19,-1,0,True,166
 sample@email.com,Game development class,120,2024-03-06 04:39:00,2024-06-24 09:00:00,2024,26,0,16,110,True,18
 sample@email.com,Game development class,120,2024-03-06 04:39:00,2024-06-26 09:00:00,2024,26,1,16,112,True,114
 sample@email.com,Attend INF1338 class - Large Language Models,120,2024-03-07 03:20:00,2024-06-25 13:00:00,2024,26,2,16,110,True,74
@@ -2008,9 +2008,9 @@ sample@email.com,Do Muay Thai,60,2024-06-24 14:44:00,2024-07-23 18:00:00,2024,30
 sample@email.com,Do Muay Thai,60,2024-06-24 14:44:00,2024-07-25 18:00:00,2024,30,3,4,31,True,180
 sample@email.com,Do pilates,90,2024-06-25 17:40:00,2024-07-26 10:00:00,2024,30,4,4,31,True,212
 sample@email.com,Have imaging exams,205,2024-06-28 14:42:00,2024-07-24 10:20:00,2024,30,5,4,26,False,116
-sample@email.com,Go to the gym,60,2024-07-25 16:18:00,2024-07-22 19:00:00,2024,30,6,0,0,True,38
-sample@email.com,Go to the gym,60,2024-07-25 16:18:00,2024-07-23 19:00:00,2024,30,7,0,0,True,86
-sample@email.com,Go to the gym,60,2024-07-25 16:18:00,2024-07-24 20:00:00,2024,30,8,0,0,True,136
+sample@email.com,Go to the gym,60,2024-07-25 16:18:00,2024-07-22 19:00:00,2024,30,6,-1,0,True,38
+sample@email.com,Go to the gym,60,2024-07-25 16:18:00,2024-07-23 19:00:00,2024,30,7,-1,0,True,86
+sample@email.com,Go to the gym,60,2024-07-25 16:18:00,2024-07-24 20:00:00,2024,30,8,-1,0,True,136
 sample@email.com,Play basketball at PUC,120,2024-07-25 16:18:00,2024-07-27 10:00:00,2024,30,9,0,2,False,260
 sample@email.com,Go to the gym,60,2024-07-25 16:19:00,2024-07-25 19:30:00,2024,30,10,0,0,True,183
 sample@email.com,Go to the gym,60,2024-07-25 16:19:00,2024-07-26 19:30:00,2024,30,11,0,1,True,231
@@ -2020,9 +2020,9 @@ sample@email.com,Do pilates,90,2024-06-25 17:40:00,2024-08-02 10:00:00,2024,31,2
 sample@email.com,Go to the gym,60,2024-07-25 16:19:00,2024-07-29 19:30:00,2024,31,3,1,4,True,39
 sample@email.com,Go to the gym,60,2024-07-25 16:19:00,2024-07-30 19:30:00,2024,31,4,1,5,True,87
 sample@email.com,Go to psychologist appointment,60,2024-07-31 01:12:00,2024-07-31 11:20:00,2024,31,5,0,0,False,118
-sample@email.com,Work,240,2024-08-01 15:29:00,2024-07-29 14:00:00,2024,31,6,0,0,True,28
-sample@email.com,Work,240,2024-08-01 15:29:00,2024-07-30 14:00:00,2024,31,7,0,0,True,76
-sample@email.com,Work,240,2024-08-01 15:29:00,2024-07-31 14:00:00,2024,31,8,0,0,True,124
+sample@email.com,Work,240,2024-08-01 15:29:00,2024-07-29 14:00:00,2024,31,6,-1,0,True,28
+sample@email.com,Work,240,2024-08-01 15:29:00,2024-07-30 14:00:00,2024,31,7,-1,0,True,76
+sample@email.com,Work,240,2024-08-01 15:29:00,2024-07-31 14:00:00,2024,31,8,-1,0,True,124
 sample@email.com,Have a blood test,60,2024-08-01 15:31:00,2024-08-02 07:30:00,2024,31,9,0,1,True,207
 sample@email.com,Go to the gym,60,2024-08-01 15:31:00,2024-08-02 19:30:00,2024,31,10,0,1,True,231
 sample@email.com,Go to the gym,60,2024-08-01 15:31:00,2024-08-03 19:30:00,2024,31,11,0,2,True,279
@@ -2041,11 +2041,11 @@ sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11
 sample@email.com,Attend inf1350 - Reactive Systems Programming class,120,2024-08-11 23:51:00,2024-08-13 13:00:00,2024,33,4,1,2,True,74
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-08-15 09:00:00,2024,33,5,1,4,True,162
 sample@email.com,Attend inf1350 - Reactive Systems Programming class,120,2024-08-11 23:51:00,2024-08-15 13:00:00,2024,33,6,1,4,True,170
-sample@email.com,Attend inf1721 - Algorithms Analysis class,120,2024-08-12 09:41:00,2024-08-12 09:00:00,2024,33,7,0,0,True,18
+sample@email.com,Attend inf1721 - Algorithms Analysis class,120,2024-08-12 09:41:00,2024-08-12 09:00:00,2024,33,7,-1,0,True,18
 sample@email.com,Attend inf1721 - Algorithms Analysis class,120,2024-08-12 09:41:00,2024-08-14 09:00:00,2024,33,8,0,2,True,114
-sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-08-12 20:15:00,2024,33,9,0,0,True,40
-sample@email.com,Do Muay Thai,75,2024-08-14 01:23:00,2024-08-13 18:00:00,2024,33,10,0,0,True,84
-sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-08-13 20:15:00,2024,33,11,0,0,True,88
+sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-08-12 20:15:00,2024,33,9,-1,0,True,40
+sample@email.com,Do Muay Thai,75,2024-08-14 01:23:00,2024-08-13 18:00:00,2024,33,10,-1,0,True,84
+sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-08-13 20:15:00,2024,33,11,-1,0,True,88
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-08-14 20:15:00,2024,33,12,0,0,True,136
 sample@email.com,Do Muay Thai,75,2024-08-14 01:23:00,2024-08-15 18:00:00,2024,33,13,0,1,True,180
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-08-16 20:15:00,2024,33,14,0,2,True,232
@@ -2053,8 +2053,8 @@ sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-08-17 20:15:00,2024,3
 sample@email.com,Work,240,2024-08-14 01:26:00,2024-08-14 14:00:00,2024,33,16,0,0,True,124
 sample@email.com,Work,240,2024-08-14 01:26:00,2024-08-15 14:00:00,2024,33,17,0,1,True,172
 sample@email.com,Work,180,2024-08-14 01:26:00,2024-08-15 15:00:00,2024,33,18,0,1,True,174
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-08-12 11:00:00,2024,33,19,0,0,True,22
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-08-14 11:00:00,2024,33,20,0,0,True,118
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-08-12 11:00:00,2024,33,19,-1,0,True,22
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-08-14 11:00:00,2024,33,20,-1,0,True,118
 sample@email.com,Do pilates,90,2024-06-25 17:40:00,2024-08-23 10:00:00,2024,34,0,8,59,True,212
 sample@email.com,Travel to Petrópolis,480,2024-07-26 16:09:00,2024-08-23 00:00:00,2024,34,1,4,28,True,192
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-08-20 09:00:00,2024,34,2,2,9,True,66
@@ -2075,8 +2075,8 @@ sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-08-23 20:15:00,2024,3
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-08-24 20:15:00,2024,34,17,1,10,True,280
 sample@email.com,Submit the game to the gmkt jam,60,2024-08-19 21:21:00,2024-08-20 10:30:00,2024,34,18,0,1,False,69
 sample@email.com,Participate in the mapping,120,2024-08-23 01:33:00,2024-08-23 08:00:00,2024,34,19,0,0,True,208
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-08-19 11:00:00,2024,34,20,0,0,True,22
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-08-21 11:00:00,2024,34,21,0,0,True,118
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-08-19 11:00:00,2024,34,20,-1,0,True,22
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-08-21 11:00:00,2024,34,21,-1,0,True,118
 sample@email.com,Do pilates,90,2024-06-25 17:40:00,2024-08-30 10:00:00,2024,35,0,9,66,True,212
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-08-27 09:00:00,2024,35,1,3,16,True,66
 sample@email.com,Attend inf1350 - Reactive Systems Programming class,120,2024-08-11 23:51:00,2024-08-27 13:00:00,2024,35,2,3,16,True,74
@@ -2093,8 +2093,8 @@ sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-08-28 20:15:00,2024,3
 sample@email.com,Do Muay Thai,75,2024-08-14 01:23:00,2024-08-29 18:00:00,2024,35,13,2,15,True,180
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-08-30 20:15:00,2024,35,14,2,16,True,232
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-08-31 20:15:00,2024,35,15,2,17,True,280
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-08-26 11:00:00,2024,35,16,0,0,True,22
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-08-28 11:00:00,2024,35,17,0,0,True,118
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-08-26 11:00:00,2024,35,16,-1,0,True,22
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-08-28 11:00:00,2024,35,17,-1,0,True,118
 sample@email.com,Do pilates,90,2024-06-25 17:40:00,2024-09-06 10:00:00,2024,36,0,10,73,True,212
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-09-03 09:00:00,2024,36,1,4,23,True,66
 sample@email.com,Attend inf1350 - Reactive Systems Programming class,120,2024-08-11 23:51:00,2024-09-03 13:00:00,2024,36,2,4,23,True,74
@@ -2113,8 +2113,8 @@ sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-09-06 20:15:00,2024,3
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-09-07 20:15:00,2024,36,15,3,24,True,280
 sample@email.com,Have a meeting with Outsystems,60,2024-08-27 15:04:00,2024-09-06 10:00:00,2024,36,16,1,10,False,212
 sample@email.com,Talk with Bruno,75,2024-09-02 13:07:00,2024-09-02 14:00:00,2024,36,17,0,0,False,28
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-02 11:00:00,2024,36,18,0,0,True,22
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-04 11:00:00,2024,36,19,0,0,True,118
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-02 11:00:00,2024,36,18,-1,0,True,22
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-04 11:00:00,2024,36,19,-1,0,True,118
 sample@email.com,Do pilates,90,2024-06-25 17:40:00,2024-09-13 10:00:00,2024,37,0,11,80,True,212
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-09-10 09:00:00,2024,37,1,5,30,True,66
 sample@email.com,Attend inf1350 - Reactive Systems Programming class,120,2024-08-11 23:51:00,2024-09-10 13:00:00,2024,37,2,5,30,True,74
@@ -2131,8 +2131,8 @@ sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-09-11 20:15:00,2024,3
 sample@email.com,Do Muay Thai,75,2024-08-14 01:23:00,2024-09-12 18:00:00,2024,37,13,4,29,True,180
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-09-13 20:15:00,2024,37,14,4,30,True,232
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-09-14 20:15:00,2024,37,15,4,31,True,280
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-09 11:00:00,2024,37,16,0,0,True,22
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-11 11:00:00,2024,37,17,0,0,True,118
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-09 11:00:00,2024,37,16,-1,0,True,22
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-11 11:00:00,2024,37,17,-1,0,True,118
 sample@email.com,Do pilates,90,2024-06-25 17:40:00,2024-09-20 10:00:00,2024,38,0,12,87,True,212
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-09-17 09:00:00,2024,38,1,6,37,True,66
 sample@email.com,Attend inf1350 - Reactive Systems Programming class,120,2024-08-11 23:51:00,2024-09-17 13:00:00,2024,38,2,6,37,True,74
@@ -2147,8 +2147,8 @@ sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-09-18 20:15:00,2024,3
 sample@email.com,Do Muay Thai,75,2024-08-14 01:23:00,2024-09-19 18:00:00,2024,38,11,5,36,True,180
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-09-20 20:15:00,2024,38,12,5,37,True,232
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-09-21 20:15:00,2024,38,13,5,38,True,280
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-16 11:00:00,2024,38,14,0,0,True,22
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-18 11:00:00,2024,38,15,0,0,True,118
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-16 11:00:00,2024,38,14,-1,0,True,22
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-18 11:00:00,2024,38,15,-1,0,True,118
 sample@email.com,Do pilates,90,2024-06-25 17:40:00,2024-09-27 10:00:00,2024,39,0,13,94,True,212
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-09-24 09:00:00,2024,39,1,7,44,True,66
 sample@email.com,Attend inf1350 - Reactive Systems Programming class,120,2024-08-11 23:51:00,2024-09-24 13:00:00,2024,39,2,7,44,True,74
@@ -2165,8 +2165,8 @@ sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-09-27 20:15:00,2024,3
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-09-28 20:15:00,2024,39,13,6,45,True,280
 sample@email.com,Take Computational Probability exam 1,120,2024-09-09 23:26:00,2024-09-24 09:00:00,2024,39,14,2,15,False,66
 sample@email.com,Take exam 1 on lexical and syntactic analyzers,120,2024-09-16 11:07:00,2024-09-23 11:00:00,2024,39,15,1,7,False,22
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-23 11:00:00,2024,39,16,0,0,True,22
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-25 11:00:00,2024,39,17,0,0,True,118
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-23 11:00:00,2024,39,16,-1,0,True,22
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-25 11:00:00,2024,39,17,-1,0,True,118
 sample@email.com,Do pilates,90,2024-06-25 17:40:00,2024-10-04 10:00:00,2024,40,0,14,101,True,212
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-10-01 09:00:00,2024,40,1,8,51,True,66
 sample@email.com,Attend inf1350 - Reactive Systems Programming class,120,2024-08-11 23:51:00,2024-10-01 13:00:00,2024,40,2,8,51,True,74
@@ -2182,8 +2182,8 @@ sample@email.com,Do Muay Thai,75,2024-08-14 01:23:00,2024-10-03 18:00:00,2024,40
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-10-04 20:15:00,2024,40,12,7,51,True,232
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-10-05 20:15:00,2024,40,13,7,52,True,280
 sample@email.com,Celebrate Caio's birthday,360,2024-09-24 15:57:00,2024-10-05 18:00:00,2024,40,14,1,11,False,276
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-30 11:00:00,2024,40,15,0,0,True,22
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-02 11:00:00,2024,40,16,0,0,True,118
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-09-30 11:00:00,2024,40,15,-1,0,True,22
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-02 11:00:00,2024,40,16,-1,0,True,118
 sample@email.com,Do pilates,90,2024-06-25 17:40:00,2024-10-11 10:00:00,2024,41,0,15,108,True,212
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-10-08 09:00:00,2024,41,1,9,58,True,66
 sample@email.com,Attend inf1350 - Reactive Systems Programming class,120,2024-08-11 23:51:00,2024-10-08 13:00:00,2024,41,2,9,58,True,74
@@ -2198,8 +2198,8 @@ sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-10-09 20:15:00,2024,4
 sample@email.com,Do Muay Thai,75,2024-08-14 01:23:00,2024-10-10 18:00:00,2024,41,11,8,57,True,180
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-10-11 20:15:00,2024,41,12,8,58,True,232
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-10-12 20:15:00,2024,41,13,8,59,True,280
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-07 11:00:00,2024,41,14,0,0,True,22
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-09 11:00:00,2024,41,15,0,0,True,118
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-07 11:00:00,2024,41,14,-1,0,True,22
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-09 11:00:00,2024,41,15,-1,0,True,118
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-10-15 09:00:00,2024,42,0,10,65,True,66
 sample@email.com,Attend inf1350 - Reactive Systems Programming class,120,2024-08-11 23:51:00,2024-10-15 13:00:00,2024,42,1,10,65,True,74
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-10-17 09:00:00,2024,42,2,10,67,True,162
@@ -2215,8 +2215,8 @@ sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-10-18 20:15:00,2024,4
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-10-19 20:15:00,2024,42,12,9,66,True,280
 sample@email.com,Kick off the WWDC education,60,2024-10-11 23:23:00,2024-10-15 11:00:00,2024,42,13,1,4,False,70
 sample@email.com,Go through the first steps of WWDC learning,60,2024-10-15 12:11:00,2024-10-19 12:00:00,2024,42,14,0,4,False,264
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-14 11:00:00,2024,42,15,0,0,True,22
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-16 11:00:00,2024,42,16,0,0,True,118
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-14 11:00:00,2024,42,15,-1,0,True,22
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-16 11:00:00,2024,42,16,-1,0,True,118
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-10-22 09:00:00,2024,43,0,11,72,True,66
 sample@email.com,Attend inf1350 - Reactive Systems Programming class,120,2024-08-11 23:51:00,2024-10-22 13:00:00,2024,43,1,11,72,True,74
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-10-24 09:00:00,2024,43,2,11,74,True,162
@@ -2230,8 +2230,8 @@ sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-10-23 20:15:00,2024,4
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-10-25 20:15:00,2024,43,10,10,72,True,232
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-10-26 20:15:00,2024,43,11,10,73,True,280
 sample@email.com,Go to the party on Saturday,60,2024-10-21 01:37:00,2024-10-26 21:00:00,2024,43,12,0,5,True,282
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-21 11:00:00,2024,43,13,0,0,True,22
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-23 11:00:00,2024,43,14,0,0,True,118
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-21 11:00:00,2024,43,13,-1,0,True,22
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-23 11:00:00,2024,43,14,-1,0,True,118
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-10-29 09:00:00,2024,44,0,12,79,True,66
 sample@email.com,Attend inf1350 - Reactive Systems Programming class,120,2024-08-11 23:51:00,2024-10-29 13:00:00,2024,44,1,12,79,True,74
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-10-31 09:00:00,2024,44,2,12,81,True,162
@@ -2244,8 +2244,8 @@ sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-10-30 20:15:00,2024,4
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-11-01 20:15:00,2024,44,9,11,79,True,232
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-11-02 20:15:00,2024,44,10,11,80,True,280
 sample@email.com,Travel to Petrópolis,480,2024-10-21 01:14:00,2024-11-01 00:00:00,2024,44,11,1,11,True,192
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-28 11:00:00,2024,44,12,0,0,True,22
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-30 11:00:00,2024,44,13,0,0,True,118
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-28 11:00:00,2024,44,12,-1,0,True,22
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-10-30 11:00:00,2024,44,13,-1,0,True,118
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-11-05 09:00:00,2024,45,0,13,86,True,66
 sample@email.com,Attend inf1350 - Reactive Systems Programming class,120,2024-08-11 23:51:00,2024-11-05 13:00:00,2024,45,1,13,86,True,74
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-11-07 09:00:00,2024,45,2,13,88,True,162
@@ -2260,8 +2260,8 @@ sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-11-08 20:15:00,2024,4
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-11-09 20:15:00,2024,45,11,12,87,True,280
 sample@email.com,Travel to Petrópolis,480,2024-10-21 01:14:00,2024-11-08 00:00:00,2024,45,12,2,18,True,192
 sample@email.com,Take Computational Probability exam 2,120,2024-11-04 09:34:00,2024-11-05 09:00:00,2024,45,13,0,1,True,66
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-11-04 11:00:00,2024,45,14,0,0,True,22
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-11-06 11:00:00,2024,45,15,0,0,True,118
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-11-04 11:00:00,2024,45,14,-1,0,True,22
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-11-06 11:00:00,2024,45,15,-1,0,True,118
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-11-12 09:00:00,2024,46,0,14,93,True,66
 sample@email.com,Attend inf1350 - Reactive Systems Programming class,120,2024-08-11 23:51:00,2024-11-12 13:00:00,2024,46,1,14,93,True,74
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-11-14 09:00:00,2024,46,2,14,95,True,162
@@ -2274,8 +2274,8 @@ sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-11-13 20:15:00,2024,4
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-11-15 20:15:00,2024,46,9,13,93,True,232
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-11-16 20:15:00,2024,46,10,13,94,True,280
 sample@email.com,Have the Play Time meeting with Goulart,60,2024-11-12 12:30:00,2024-11-13 21:00:00,2024,46,11,0,1,False,138
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-11-11 11:00:00,2024,46,12,0,0,True,22
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-11-13 11:00:00,2024,46,13,0,0,True,118
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-11-11 11:00:00,2024,46,12,-1,0,True,22
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-11-13 11:00:00,2024,46,13,-1,0,True,118
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-11-19 09:00:00,2024,47,0,15,100,True,66
 sample@email.com,Attend inf1350 - Reactive Systems Programming class,120,2024-08-11 23:51:00,2024-11-19 13:00:00,2024,47,1,15,100,True,74
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-11-21 09:00:00,2024,47,2,15,102,True,162
@@ -2287,8 +2287,8 @@ sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-11-19 20:15:00,2024,4
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-11-20 20:15:00,2024,47,8,14,98,True,136
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-11-22 20:15:00,2024,47,9,14,100,True,232
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2024-11-23 20:15:00,2024,47,10,14,101,True,280
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-11-18 11:00:00,2024,47,11,0,0,True,22
-sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-11-20 11:00:00,2024,47,12,0,0,True,118
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-11-18 11:00:00,2024,47,11,-1,0,True,22
+sample@email.com,Attend the Lexical and Syntactic Analysis class,120,2024-11-24 16:16:00,2024-11-20 11:00:00,2024,47,12,-1,0,True,118
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-11-26 09:00:00,2024,48,0,16,107,True,66
 sample@email.com,Attend inf1350 - Reactive Systems Programming class,120,2024-08-11 23:51:00,2024-11-26 13:00:00,2024,48,1,16,107,True,74
 sample@email.com,Attend INF1036 - Computational Probability class,120,2024-08-11 23:51:00,2024-11-28 09:00:00,2024,48,2,16,109,True,162
@@ -2333,7 +2333,7 @@ sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2025-01-01 20:15:00,2025,1
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2025-01-03 20:15:00,2025,1,3,20,142,True,232
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2025-01-04 20:15:00,2025,1,4,20,143,True,280
 sample@email.com,Go to the gym,90,2024-08-14 01:23:00,2025-01-06 20:15:00,2025,2,0,21,145,True,40
-sample@email.com,Have breakfast,19,2025-01-07 10:12:00,2025-01-07 08:00:00,2025,2,1,0,0,True,64
+sample@email.com,Have breakfast,19,2025-01-07 10:12:00,2025-01-07 08:00:00,2025,2,1,-1,0,True,64
 sample@email.com,Have breakfast,19,2025-01-07 10:12:00,2025-01-08 08:00:00,2025,2,2,0,1,True,112
 sample@email.com,Have breakfast,19,2025-01-07 10:12:00,2025-01-09 08:00:00,2025,2,3,0,2,True,160
 sample@email.com,Have breakfast,19,2025-01-07 10:12:00,2025-01-10 08:00:00,2025,2,4,0,3,True,208
@@ -2344,7 +2344,7 @@ sample@email.com,Go to the gym,90,2025-01-07 10:12:00,2025-01-08 16:30:00,2025,2
 sample@email.com,Go to the gym,90,2025-01-07 10:12:00,2025-01-09 16:30:00,2025,2,9,0,2,True,177
 sample@email.com,Go to the gym,90,2025-01-07 10:12:00,2025-01-10 16:30:00,2025,2,10,0,3,True,225
 sample@email.com,Go to the gym,90,2025-01-07 10:12:00,2025-01-11 16:30:00,2025,2,11,0,4,True,273
-sample@email.com,Have a morning snack,4,2025-01-07 10:14:00,2025-01-07 10:00:00,2025,2,12,0,0,True,68
+sample@email.com,Have a morning snack,4,2025-01-07 10:14:00,2025-01-07 10:00:00,2025,2,12,-1,0,True,68
 sample@email.com,Have a morning snack,4,2025-01-07 10:14:00,2025-01-08 10:00:00,2025,2,13,0,1,True,116
 sample@email.com,Have a morning snack,4,2025-01-07 10:14:00,2025-01-09 10:00:00,2025,2,14,0,2,True,164
 sample@email.com,Have a morning snack,4,2025-01-07 10:14:00,2025-01-10 10:00:00,2025,2,15,0,3,True,212
@@ -2476,7 +2476,7 @@ sample@email.com,Have dinner,30,2025-01-07 10:18:00,2025-01-25 20:00:00,2025,4,4
 sample@email.com,Have dinner,30,2025-01-07 10:18:00,2025-01-26 20:00:00,2025,4,48,2,19,True,328
 sample@email.com,Do spinning,60,2025-01-20 23:08:00,2025-01-21 10:00:00,2025,4,49,0,1,True,68
 sample@email.com,Enroll at PUC,120,2025-01-20 23:21:00,2025-01-21 08:00:00,2025,4,50,0,1,True,64
-sample@email.com,Go to the birusamba de verão,60,2025-01-22 14:09:00,2025-01-22 14:00:00,2025,4,51,0,0,False,124
+sample@email.com,Go to the birusamba de verão,60,2025-01-22 14:09:00,2025-01-22 14:00:00,2025,4,51,-1,0,False,124
 sample@email.com,Go to the birusamba de verão,360,2025-01-22 14:22:00,2025-01-25 21:00:00,2025,4,52,0,3,False,282
 sample@email.com,Have breakfast,19,2025-01-07 10:12:00,2025-01-27 08:00:00,2025,5,0,3,20,True,16
 sample@email.com,Have breakfast,19,2025-01-07 10:12:00,2025-01-28 08:00:00,2025,5,1,3,21,True,64
@@ -3033,7 +3033,7 @@ sample@email.com,Attend INF1410 - IT Project Management class,120,2025-03-12 14:
 sample@email.com,Go to psychologist appointment,60,2025-03-24 00:08:00,2025-03-31 18:30:00,2025,14,61,1,7,True,37
 sample@email.com,Have a thesis meeting,30,2025-03-30 21:19:00,2025-03-31 11:30:00,2025,14,62,1,1,True,23
 sample@email.com,Take Calculus II test,120,2025-03-30 21:23:00,2025-04-03 17:00:00,2025,14,63,1,4,False,178
-sample@email.com,Have a blood test,45,2025-03-31 08:00:00,2025-03-31 07:00:00,2025,14,64,0,0,False,14
+sample@email.com,Have a blood test,45,2025-03-31 08:00:00,2025-03-31 07:00:00,2025,14,64,-1,0,False,14
 sample@email.com,Have a morning snack,4,2025-01-07 10:14:00,2025-04-07 10:00:00,2025,15,0,13,90,True,20
 sample@email.com,Have a morning snack,4,2025-01-07 10:14:00,2025-04-08 10:00:00,2025,15,1,13,91,True,68
 sample@email.com,Have a morning snack,4,2025-01-07 10:14:00,2025-04-09 10:00:00,2025,15,2,13,92,True,116
@@ -3407,12 +3407,12 @@ sample@email.com,Attend INF1608 - Numerical Analysis class,120,2025-05-13 00:19:
 sample@email.com,Attend ADM1019 - Introduction to Finance class,120,2025-05-13 00:19:00,2025-05-13 13:00:00,2025,20,55,0,0,True,74
 sample@email.com,Attend ADM1019 - Introduction to Finance class,120,2025-05-13 00:19:00,2025-05-15 13:00:00,2025,20,56,0,2,True,170
 sample@email.com,Attend INF1608 - Numerical Analysis class,120,2025-05-13 00:19:00,2025-05-15 11:00:00,2025,20,57,0,2,True,166
-sample@email.com,Attend INF1410 - IT Project Management class,120,2025-05-13 00:21:00,2025-05-12 15:00:00,2025,20,58,0,0,True,30
-sample@email.com,Attend INF1410 - IT Project Management class,120,2025-05-13 00:21:00,2025-05-12 15:00:00,2025,20,59,0,0,True,30
+sample@email.com,Attend INF1410 - IT Project Management class,120,2025-05-13 00:21:00,2025-05-12 15:00:00,2025,20,58,-1,0,True,30
+sample@email.com,Attend INF1410 - IT Project Management class,120,2025-05-13 00:21:00,2025-05-12 15:00:00,2025,20,59,-1,0,True,30
 sample@email.com,Attend INF1410 - IT Project Management class,120,2025-05-13 00:21:00,2025-05-14 15:00:00,2025,20,60,0,1,True,126
 sample@email.com,Attend INF1314 class - Generating Startup with Artificial Intelligence,120,2025-05-13 00:28:00,2025-05-16 13:00:00,2025,20,61,0,3,True,218
 sample@email.com,Work,120,2025-05-13 00:29:00,2025-05-15 09:00:00,2025,20,62,0,2,True,162
-sample@email.com,Work,300,2025-05-13 00:30:00,2025-05-12 16:00:00,2025,20,63,0,0,False,32
+sample@email.com,Work,300,2025-05-13 00:30:00,2025-05-12 16:00:00,2025,20,63,-1,0,False,32
 sample@email.com,Work,240,2025-05-13 00:30:00,2025-05-14 09:00:00,2025,20,64,0,1,True,114
 sample@email.com,Work,240,2025-05-13 00:30:00,2025-05-14 15:00:00,2025,20,65,0,1,True,126
 sample@email.com,Work,240,2025-05-13 00:31:00,2025-05-16 15:00:00,2025,20,66,0,3,True,222
@@ -3487,7 +3487,7 @@ sample@email.com,Work,120,2025-05-13 01:16:00,2025-05-21 15:00:00,2025,21,63,1,8
 sample@email.com,Work,120,2025-05-13 01:16:00,2025-05-23 15:00:00,2025,21,64,1,10,True,222
 sample@email.com,Attend INF1629 - Software Engineering Principles class,120,2025-05-13 01:22:00,2025-05-22 15:00:00,2025,21,65,1,9,True,174
 sample@email.com,Attend INF1629 - Software Engineering Principles class,120,2025-05-13 01:22:00,2025-05-20 15:00:00,2025,21,66,1,7,True,78
-sample@email.com,Attend MAT4162 - Calculus 2 class,120,2025-05-19 13:41:00,2025-05-19 13:00:00,2025,21,67,0,0,True,26
+sample@email.com,Attend MAT4162 - Calculus 2 class,120,2025-05-19 13:41:00,2025-05-19 13:00:00,2025,21,67,-1,0,True,26
 sample@email.com,Attend MAT4162 - Calculus 2 class,120,2025-05-19 13:41:00,2025-05-21 13:00:00,2025,21,68,0,2,True,122
 sample@email.com,Have a morning snack,4,2025-01-07 10:14:00,2025-05-26 10:00:00,2025,22,0,20,139,True,20
 sample@email.com,Have a morning snack,4,2025-01-07 10:14:00,2025-05-27 10:00:00,2025,22,1,20,140,True,68
