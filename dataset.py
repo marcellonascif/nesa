@@ -669,7 +669,7 @@ class Config(object):
         self.test_path = os.path.join(path_base, 'test.csv')
         # http://nlp.stanford.edu/data/glove.840B.300d.zip
         self.glove_path = \
-            os.path.join(os.path.expanduser('~'), 'nlp',
+            os.path.join(os.path.dirname(__file__), 'nlp',
                          'glove.840B.300d.txt')
         self.glove_type = 840  # 6 or 840 (B)
         assert os.path.exists(self.glove_path)
