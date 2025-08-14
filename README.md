@@ -1,8 +1,27 @@
 # NESA: Neural Event Scheduling Assistant
-NESA is a deep learning-based event scheduling assistant which can recommend most suitable times for new calendar events of each user. This repository provides the official implementation of NESA. Due to the dataset privacy issue, we instead provide the pre-processing code for your own google calendar data. Please refer to our paper, [Learning User Preferences and Understanding Calendar Contexts for Event Scheduling (Kim et al., CIKM 2018)](https://arxiv.org/abs/1809.01316), for more details of our model.
 
-## Citation
-```
+NESA (Neural Event Scheduling Assistant) é um assistente de agendamento de eventos baseado em deep learning que pode recomendar os horários mais adequados para novos eventos de calendário de cada usuário. Este repositório fornece a implementação oficial do NESA, incluindo pré-processamento de dados, treinamento e inferência do modelo.
+
+## 📋 Sobre o Projeto
+
+O NESA utiliza uma arquitetura de deep learning que combina:
+- **Embeddings de contexto**: Representações de usuário, duração e slots temporais
+- **Processamento de texto**: Análise de títulos de eventos usando CNNs e LSTMs
+- **Contexto temporal**: Análise de eventos anteriores para entender padrões do usuário
+- **Recomendação inteligente**: Predição de slots temporais mais apropriados
+
+
+## 📊 Métricas de Avaliação
+
+O modelo é avaliado usando:
+- **Recall@1**: Acurácia top-1 das recomendações
+- **Recall@5**: Acurácia top-5 das recomendações
+- **MRR (Mean Reciprocal Rank)**: Ranking médio recíproco
+- **IEUC**: Métrica específica para avaliação de agendamento
+
+## 🔗 Citação
+
+```bibtex
 @inproceedings{kim2018learning,
   title={Learning User Preferences and Understanding Calendar Contexts for Event Scheduling},
   author={Kim, Donghyeon and Lee, Jinhyuk and Choi, Donghee and Choi, Jaehoon and Kang, Jaewoo},
@@ -13,47 +32,143 @@ NESA is a deep learning-based event scheduling assistant which can recommend mos
 }
 ```
 
-## Prerequisites
-* [Python 3](https://www.python.org/downloads/)
-* [PyTorch](http://pytorch.org/) 1.13.0+
-* (Optional) NVIDIA GPU (memory size: 8GB or greater)
-    * [CUDA](https://developer.nvidia.com/cuda-downloads), [cuDNN](https://developer.nvidia.com/cudnn)
-* A [Google](https://www.google.com) account
-* git lfs
+**Paper**: [Learning User Preferences and Understanding Calendar Contexts for Event Scheduling](https://arxiv.org/abs/1809.01316)
 
-## Installation
-Check if working directory is "nesa".
+## ⚙️ Pré-requisitos
 
-### Download word vector file and decompress it to your __home_dir/nlp__
-- [glove.840B.300d.zip](http://nlp.stanford.edu/data/glove.840B.300d.zip)
+### Ambiente de Sistema
+- **Python 3.7+** (testado com Python 3.11)
+- **PyTorch 1.13.0+**
+- **Git LFS** (para arquivos grandes)
 
-## Run NESA with the sample data
-```
-# Set PYTHONPATH environment variable
-$ export PYTHONPATH=$PYTHONPATH:$(pwd)
+### Hardware (Opcional)
+- **GPU NVIDIA** (8GB+ VRAM recomendado)
+- **CUDA** e **cuDNN** (para aceleração GPU)
 
-# Run
-$ python3 test.py
+## 🚀 Instalação e Setup Completo
+
+### 1. Clone do Repositório
+```bash
+git clone <repository-url>
+cd nesa
 ```
 
-## (Optional) Run NESA w/ your calendar data
-* Important: Download client_secret.json to the project folder before running get_google_calendar_events.py
-(See https://developers.google.com/google-apps/calendar/quickstart/python)
-* Important: Modify CLIENT_SECRET_FILE value of get_google_calendar_events.py
+### 2. Configuração do Ambiente Python
+```bash
+# Criar ambiente virtual (recomendado)
+python -m venv nesa-env
+source nesa-env/bin/activate  # Linux/Mac
+# ou
+nesa-env\Scripts\activate     # Windows
+
+# Instalar dependências
+pip install -r requirements.txt
 ```
-$ python3 get_google_calendar_events.py
+
+### 3. Download dos Word Embeddings
+```bash
+# Criar diretório para embeddings
+mkdir -p nlp
+
+# Download do GloVe (atenção: arquivo de ~2.03GB)
+cd nlp
+wget http://nlp.stanford.edu/data/glove.840B.300d.zip
+unzip glove.840B.300d.zip
+cd ..
 ```
-* Check if <primary_calendar_id>_events.csv file is in __data__ directory.
-* Event fields (12-column)
-    * \[email_address, title, duration_minute, register_time, start_time, start_iso_year, start_iso_week, week_register_sequence, register_start_week_distance, register_start_day_distance, is_recurrent, start_time_slot\]
-    * Sorted by year, week, and sequence in a week
-    * Time slot range: 0 ~ 335
-        * 30 minutes * 48 slots * 7 days = 1 week
-    * Example: example@example.com,Cafe with J,60,2017-09-19 11:21:43,2017-09-23 10:00:00,2017,38,4,0,1,False,260
-* Results of the model could be different for each dataset.
+
+### 4. Configuração da Google Calendar API (Opcional)
+
+Para usar seus próprios dados de calendário:
+
+1. **Acesse o [Google Cloud Console](https://console.cloud.google.com/)**
+2. **Crie um novo projeto ou selecione um existente**
+3. **Ative a Google Calendar API**
+4. **Crie credenciais OAuth 2.0**
+5. **Baixe o arquivo `client_secret.json`** para o diretório raiz do projeto
+6. **Modifique o arquivo `get_google_calendar_events.py`**:
+   ```python
+   CLIENT_SECRET_FILE = 'client_secret.json'  # Seu arquivo de credenciais
+   ```
+
+## 📈 Execução e Reprodutibilidade
+
+### Teste com Dados de Exemplo
+```bash
+# Configurar PYTHONPATH
+export PYTHONPATH=$PYTHONPATH:$(pwd)
+
+# Executar teste com dados de exemplo
+python test.py
 ```
-$ python3 test.py --input_path ./data/<primary_calendar_id>_events.csv
+
+
+2. **Executar modelo com seus dados:**
+```bash
+python test.py --input_path ./data/<seu_csv>.csv
 ```
+
+### Parâmetros de Linha de Comando
+
+```bash
+python test.py \
+    --input_path "./data/sample_data.csv" \          # Arquivo CSV de entrada
+    --serialized_data_path "./data/preprocess_test.pkl" \  # Cache de pré-processamento
+    --model_path "./data/nesa_180522_0.pth" \        # Modelo pré-treinado
+    --trained_dict_path "./data/dataset_180522_dict.pkl" \  # Dicionário treinado
+    --seed 3 \                                       # Seed para reprodutibilidade
+    --yes_cuda 1                                     # Usar GPU (1) ou CPU (0)
+```
+
+## 📁 Estrutura de Dados
+
+### Formato CSV de Entrada
+Os eventos devem estar no formato CSV com 12 colunas:
+```
+email_address,title,duration_minute,register_time,start_time,start_iso_year,start_iso_week,week_register_sequence,register_start_week_distance,register_start_day_distance,is_recurrent,start_time_slot
+```
+
+**Exemplo:**
+```csv
+user@email.com,Meeting with team,60,2023-08-10 09:00:00+00:00,2023-08-15 14:00:00+09:00,2023,33,0,0,5,False,284
+```
+
+### Slots Temporais
+- **Range**: 0-335 (total de 336 slots)
+- **Resolução**: 30 minutos por slot
+- **Cobertura**: 7 dias × 48 slots/dia = 336 slots/semana
+
+## 🎯 Exemplo Prático de Execução
+
+### Execução Passo-a-Passo
+
+```bash
+# 1. Preparação do ambiente
+export PYTHONPATH=$PYTHONPATH:$(pwd)
+```
+
+## 🔧 Estrutura do Projeto
+
+```
+nesa/
+├── data/                          # Dados e modelos
+│   ├── sample_data.csv           # Dados de exemplo
+│   ├── nesa_180522_0.pth         # Modelo pré-treinado
+│   ├── dataset_180522_dict.pkl   # Dicionário de vocabulário
+│   └── converted_data.csv        # Dados convertidos
+├── nlp/                          # Word embeddings
+│   └── glove.840B.300d.txt      # GloVe embeddings
+├── model.py                      # Arquitetura do modelo NESA
+├── dataset.py                    # Processamento e carregamento de dados
+├── test.py                       # Script de avaliação
+├── get_google_calendar_events.py # Extração de dados do Google Calendar
+├── utils.py                      # Utilitários diversos
+└── requirements.txt              # Dependências Python
+```
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença especificada no arquivo `LICENSE`.
 
 ## License
 Apache License 2.0
